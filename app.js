@@ -74,7 +74,11 @@
   }
 
   function speak(text, onend){
-    if(!synth) return console.log('TTS not available', text);
+    if(!synth){
+      console.log('TTS not available', text);
+      if(onend) onend();
+      return;
+    }
     const u = new SpeechSynthesisUtterance(text);
     u.rate = 0.9;
     if(onend) u.onend = onend;
