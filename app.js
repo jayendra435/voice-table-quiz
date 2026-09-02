@@ -73,10 +73,11 @@
     $('statLastPlayed').textContent = s.lastPlayed ? new Date(s.lastPlayed).toLocaleString() : '--';
   }
 
-  function speak(text){
+  function speak(text, onend){
     if(!synth) return console.log('TTS not available', text);
     const u = new SpeechSynthesisUtterance(text);
     u.rate = 0.9;
+    if(onend) u.onend = onend;
     synth.speak(u);
   }
 
@@ -375,8 +376,14 @@
         state.waiting = false;
         setTimeout(()=>{ playBeep(); state.waiting = true; state._responseStart = performance.now(); log('Beep! Listening now.'); }, 5000);
       } else {
-        state.waiting = true;
-        speak(item.question);
+        state.waiting = false;
+        speak(item.question, () => {
+          if(state.running && state.current){
+            state.waiting = true;
+            state._responseStart = performance.now();
+            $('listeningStatus').style.display = 'inline';
+          }
+        });
       }
       return;
     }
@@ -392,8 +399,14 @@
       state.waiting = false;
       setTimeout(()=>{ playBeep(); state.waiting = true; state._responseStart = performance.now(); log('Beep! Listening now.'); }, 5000);
     } else {
-      state.waiting = true;
-      speak(`Question ${state.asked}. ${state.current.prompt}`);
+      state.waiting = false;
+      speak(`Question ${state.asked}. ${state.current.prompt}`, () => {
+        if(state.running && state.current){
+          state.waiting = true;
+          state._responseStart = performance.now();
+          $('listeningStatus').style.display = 'inline';
+        }
+      });
     }
 
     if(!state.commute && state.waiting){
@@ -416,9 +429,7 @@
     state.asked = 0; state.correct = 0; state.running = true;
     startBtn.disabled = true; stopBtn.disabled = false;
     renderStats();
-    if(recognition){
-      try{ recognition.start(); log('Recognition started (continuous)'); }catch(e){ log('Recognition start error: '+e.message); }
-    }
+    startRecognition();
     state.commute = $('commuteToggle').checked;
     if(state.commute){ $('commuteBadge').style.display = 'inline-block'; } else { $('commuteBadge').style.display = 'none'; }
     updateUI();
@@ -427,7 +438,11 @@
 
   function stopQuiz(){
     state.running = false; startBtn.disabled = false; stopBtn.disabled = true;
-    if(recognition){ try{ recognition.stop(); log('Recognition stopped'); }catch(e){} }
+    if(recognition){
+      state.recognitionShouldRun = false;
+      clearTimeout(state.recognitionRestartTimer);
+      try{ recognition.stop(); log('Recognition stopped'); }catch(e){}
+    }
   }
 
   function handleAnswer(value){
@@ -488,10 +503,16 @@
       handleAnswer(text);
     };
 
-    recognition.onerror = (ev) => { log('Recognition error: ' + ev.error); };
+    recognition.onstart = () => { state.recognitionActive = true; };
+    recognition.onerror = (ev) => {
+      state.recognitionActive = false;
+      if(ev.error !== 'no-speech' && ev.error !== 'aborted') log('Recognition error: ' + ev.error);
+    };
     recognition.onend = () => {
-      if(state.running){
-        try{ recognition.start(); log('Recognition restarted after end'); }catch(e){ log('Restart error: ' + e.message); }
+      state.recognitionActive = false;
+      if(state.running && state.recognitionShouldRun){
+        clearTimeout(state.recognitionRestartTimer);
+        state.recognitionRestartTimer = setTimeout(startRecognition, 250);
       }
     };
     log('Using browser Web Speech API for recognition (online)');
@@ -500,6 +521,16 @@
   }
 
   $('practiceMode').addEventListener('change', updateModeControls);
+
+  function startRecognition(){
+    if(!recognition || !state.running) return;
+    state.recognitionShouldRun = true;
+    if(state.recognitionActive) return;
+    try{ recognition.start(); }catch(e){
+      clearTimeout(state.recognitionRestartTimer);
+      state.recognitionRestartTimer = setTimeout(startRecognition, 500);
+    }
+  }
 
   startBtn.addEventListener('click', startQuiz);
   stopBtn.addEventListener('click', stopQuiz);
@@ -515,19 +546,6 @@
 
   $('showStats').addEventListener('click', () => { const p = $('statsPanel'); p.classList.toggle('show'); renderStats(); });
   $('clearStats').addEventListener('click', () => { if(confirm('Clear stored stats and revision queue?')){ resetStats(); saveRevision([]); renderStats(); alert('Cleared'); }});
-
-  function startResponseTimerAfterTTS(){
-    if(!synth){ state._responseStart = performance.now(); return; }
-    const waiter = setInterval(() => {
-      if(!synth.speaking && !synth.pending){ clearInterval(waiter); state._responseStart = performance.now(); }
-    }, 50);
-  }
-
-  const _origSpeak = speak;
-  speak = function(text){
-    _origSpeak(text);
-    if(state.waiting){ startResponseTimerAfterTTS(); }
-  };
 
   updateModeControls();
   renderStats();
