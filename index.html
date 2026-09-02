@@ -103,22 +103,7 @@
     </div>
 
     <div class="controls-section">
-      <div class="control-row">
-        <div class="control-group">
-          <label>Questions:</label>
-          <input id="count" type="number" value="10" min="1">
-        </div>
-        <div class="control-group">
-          <label>Max table:</label>
-          <input id="maxTable" type="number" value="12" min="1">
-        </div>
-        <div class="control-group">
-          <label>Max multiplier:</label>
-          <input id="maxMultiplier" type="number" value="12" min="1">
-        </div>
-      </div>
-
-      <div class="control-row" style="margin-top:10px; display:block;">
+      <div class="control-row" style="display:block;">
         <label for="practiceMode" style="display:block; margin-bottom:8px; font-weight:600; color:#333;">Practice mode</label>
         <select id="practiceMode" style="width:100%; padding:10px 12px; border:1px solid #ddd; border-radius:6px; font-size:14px; background:white;">
           <option value="multiplication" selected>Tables (default)</option>
@@ -134,21 +119,28 @@
       </div>
 
       <div class="control-row" style="margin-top:10px;">
-        <div class="control-group table-settings">
-          <label>Min table:</label>
-          <input id="minTable" type="number" value="1" min="1">
+        <div class="control-group">
+          <label for="count">Number of questions:</label>
+          <input id="count" type="text" value="Infinity" inputmode="numeric" placeholder="Infinity">
         </div>
-        <div class="control-group table-settings">
-          <label>Max table:</label>
-          <input id="maxTable" type="number" value="12" min="1">
+      </div>
+
+      <div id="modeSettings" class="control-row" style="margin-top:10px; display:grid; grid-template-columns:repeat(auto-fit, minmax(150px, 1fr));">
+        <div class="control-group mode-setting" data-setting="minTable">
+          <label for="minTable">Min table:</label>
+          <input id="minTable" type="number" value="1" min="1" max="30">
         </div>
-        <div class="control-group table-settings">
-          <label>Min multiplier:</label>
-          <input id="minMultiplier" type="number" value="1" min="1">
+        <div class="control-group mode-setting" data-setting="maxTable">
+          <label for="maxTable">Max table:</label>
+          <input id="maxTable" type="number" value="30" min="1" max="30">
         </div>
-        <div class="control-group table-settings">
-          <label>Max multiplier:</label>
-          <input id="maxMultiplier" type="number" value="12" min="1">
+        <div class="control-group mode-setting" data-setting="minMultiplier">
+          <label for="minMultiplier">Min multiplier:</label>
+          <input id="minMultiplier" type="number" value="1" min="1" max="30">
+        </div>
+        <div class="control-group mode-setting" data-setting="maxMultiplier">
+          <label for="maxMultiplier">Max multiplier:</label>
+          <input id="maxMultiplier" type="number" value="30" min="1" max="30">
         </div>
       </div>
 

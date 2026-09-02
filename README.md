@@ -39,14 +39,16 @@ A web-based multiplication table quiz using the browser's Web Speech API for onl
 
 ## Usage
 
-1. Enter your table range (default 1-12)
-2. Click "Start Quiz"
-3. Answer questions by speaking:
+1. Choose a practice mode. Tables is selected by default.
+2. Set the number of questions. It defaults to `Infinity`; enter a number to stop automatically, or change it while playing.
+3. For tables, set minimum/maximum table and multiplier values. The labels and ranges change for squares, cubes, and roots.
+4. Click "Start Quiz"
+5. Answer questions by speaking:
    - "323" (numeric)
    - "three two three" (spaced digits)
    - "three hundred twenty-three" (spelled out)
    - "323 answer" (filler words are filtered)
-4. View statistics anytime by clicking "Stats"
+6. View statistics anytime by clicking "Stats"
 
 ## Features
 
@@ -57,6 +59,7 @@ A web-based multiplication table quiz using the browser's Web Speech API for onl
 - **Modern UI**: Gradient backgrounds, progress bar, live statistics panel
 - **Responsive**: Desktop and mobile (with HTTPS)
 - **Input Fallback**: Type answers if speech recognition fails
+- **Fraction Speech**: Fractions such as `3/4` are spoken as "3 by 4"; spoken "by" and "over" are accepted as fraction separators
 
 ## Notes
 

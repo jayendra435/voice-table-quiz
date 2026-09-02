@@ -25,15 +25,35 @@
     decimalToFraction: 'Decimal → Fraction'
   };
 
+  const MODE_SETTINGS = {
+    multiplication: [
+      ['minTable', 'Min table', 1, 30], ['maxTable', 'Max table', 30, 30],
+      ['minMultiplier', 'Min multiplier', 1, 30], ['maxMultiplier', 'Max multiplier', 30, 30]
+    ],
+    squares: [['minTable', 'Min square', 1, 50], ['maxTable', 'Max square', 50, 50]],
+    cubes: [['minTable', 'Min cube', 1, 30], ['maxTable', 'Max cube', 30, 30]],
+    squareRoots: [['minTable', 'Min square', 1, 50], ['maxTable', 'Max square', 50, 50]],
+    cubeRoots: [['minTable', 'Min cube', 1, 30], ['maxTable', 'Max cube', 30, 30]],
+    fractionToPercent: [], percentToFraction: [], fractionToDecimal: [], decimalToFraction: []
+  };
+
   function getSelectedMode(){
     return $('practiceMode') ? $('practiceMode').value : 'multiplication';
   }
 
   function updateModeControls(){
     const mode = getSelectedMode();
-    const isTableMode = mode === 'multiplication';
-    document.querySelectorAll('.table-settings').forEach(el => {
-      el.style.display = isTableMode ? 'flex' : 'none';
+    const settings = MODE_SETTINGS[mode] || [];
+    const settingMap = new Map(settings.map(item => [item[0], item]));
+    document.querySelectorAll('.mode-setting').forEach(el => {
+      const setting = settingMap.get(el.dataset.setting);
+      el.style.display = setting ? 'flex' : 'none';
+      if(setting){
+        el.querySelector('label').textContent = setting[1] + ':';
+        const input = el.querySelector('input');
+        input.max = setting[3];
+        if(!input.value || Number(input.value) > setting[3] || Number(input.value) < 1) input.value = setting[2];
+      }
     });
   }
 
@@ -79,10 +99,14 @@
       if(onend) onend();
       return;
     }
-    const u = new SpeechSynthesisUtterance(text);
+    const u = new SpeechSynthesisUtterance(speechText(text));
     u.rate = 0.9;
     if(onend) u.onend = onend;
     synth.speak(u);
+  }
+
+  function speechText(text){
+    return String(text).replace(/(\d+)\s*\/\s*(\d+)/g, '$1 by $2');
   }
 
   function playBeep(duration = 150, freq = 800, vol = 0.2){
@@ -123,6 +147,7 @@
       .replace(/\bminus\b/g, '-')
       .replace(/\bpoint\b/g, '.')
       .replace(/\bslash\b/g, '/')
+      .replace(/\b(?:by|over)\b/g, '/')
       .replace(/[.,!?]/g, ' ')
       .replace(/[^0-9a-z\s\/%.-]/g, ' ')
       .replace(/\s+/g, ' ')
@@ -133,8 +158,10 @@
     if(cleaned.includes('/')){
       const parts = cleaned.split('/').map(p=>p.trim());
       if(parts.length === 2){
-        const num = Number(parts[0].replace(/[^0-9.-]/g, ''));
-        const den = Number(parts[1].replace(/[^0-9.-]/g, ''));
+        const numText = parts[0].replace(/[^0-9.-]/g, '');
+        const denText = parts[1].replace(/[^0-9.-]/g, '');
+        const num = numText ? Number(numText) : wordsToNum(parts[0]);
+        const den = denText ? Number(denText) : wordsToNum(parts[1]);
         if(Number.isFinite(num) && Number.isFinite(den) && den !== 0){
           return reduceFraction(num, den);
         }
@@ -211,8 +238,8 @@
                (parseRational(candidate) && parseRational(current.answer) && areFractionsEquivalent(candidate, current.answer));
 
       case 'fractionToPercent':
-        return Math.abs(Number(candidate) - Number(current.answer)) < 0.01 ||
-               Math.abs(parseRational(candidate).n / parseRational(candidate).d * 100 - Number(current.answer)) < 0.01;
+         return Math.abs(Number(candidate) - Number(current.answer)) < 0.01 ||
+           (parseRational(candidate) && Math.abs(parseRational(candidate).n / parseRational(candidate).d * 100 - Number(current.answer)) < 0.01);
 
       case 'percentToFraction':
         return areFractionsEquivalent(candidate, current.answer);
@@ -240,9 +267,9 @@
 
   function updateUI(){
     const s = loadStats();
-    const pct = state.count > 0 ? Math.round((state.asked / state.count) * 100) : 0;
+    const pct = Number.isFinite(state.count) && state.count > 0 ? Math.round((state.asked / state.count) * 100) : 0;
     $('progressFill').style.width = pct + '%';
-    $('progressText').textContent = `${state.asked}/${state.count}`;
+    $('progressText').textContent = Number.isFinite(state.count) ? `${state.asked}/${state.count}` : `${state.asked}/∞`;
     $('scoreDisplay').textContent = state.correct;
     $('streakDisplay').textContent = s.streak || 0;
     $('accuracyDisplay').textContent = (s.accuracy || 0) + '%';
@@ -251,6 +278,11 @@
   function getSelectedCategories(){
     const mode = getSelectedMode();
     return [mode || 'multiplication'];
+  }
+
+  function parseQuestionCount(){
+    const text = $('count').value.trim().toLowerCase();
+    return text === '' || text === 'infinity' || text === 'inf' ? Infinity : Math.max(1, parseInt(text, 10) || 10);
   }
 
   function buildQuestion(type){
@@ -296,28 +328,30 @@
         return q;
       }
       case 'squares': {
-        const n = randomInt(1, 50);
+        const n = randomInt(state.minRange || 1, state.maxRange || 50);
         q.type = 'squares';
         q.prompt = `What is ${n}²?`;
         q.answer = String(n * n);
         return q;
       }
       case 'cubes': {
-        const n = randomInt(1, 30);
+        const n = randomInt(state.minRange || 1, state.maxRange || 30);
         q.type = 'cubes';
         q.prompt = `What is ${n}³?`;
         q.answer = String(n * n * n);
         return q;
       }
       case 'squareRoots': {
-        const n = squarePool[randomInt(0, squarePool.length - 1)];
+        const root = randomInt(state.minRange || 1, state.maxRange || 50);
+        const n = root * root;
         q.type = 'squareRoots';
         q.prompt = `What is √${n}?`;
         q.answer = String(Math.sqrt(n));
         return q;
       }
       case 'cubeRoots': {
-        const n = cubePool[randomInt(0, cubePool.length - 1)];
+        const root = randomInt(state.minRange || 1, state.maxRange || 30);
+        const n = root * root * root;
         q.type = 'cubeRoots';
         q.prompt = `What is ∛${n}?`;
         q.answer = String(Math.cbrt(n));
@@ -359,14 +393,15 @@
   let state = { running: false, count: 10, asked: 0, correct: 0, current: null, commute: false, waiting: false, maxTable: 12, maxMultiplier: 12, selected: ['multiplication'] };
 
   function nextQuestion(){
-    if(state.asked >= state.count){
+    if(Number.isFinite(state.count) && state.asked >= state.count){
       speak(`Quiz complete. You got ${state.correct} out of ${state.count} correct.`);
       qEl.textContent = `Done — ${state.correct}/${state.count} correct`;
       stopQuiz();
       return;
     }
 
-    const revisionQ = loadRevision();
+    const currentMode = getSelectedCategories()[0];
+    const revisionQ = loadRevision().filter(item => item.type === currentMode || (!item.type && currentMode === 'multiplication'));
     state._responseStart = null;
     state._responseFinish = null;
 
@@ -397,7 +432,8 @@
     state.current = buildQuestion(type);
     state.current.type = state.current.type || type;
     state.asked += 1;
-    qEl.textContent = `Question ${state.asked}/${state.count}: ${state.current.prompt}`;
+    const countLabel = Number.isFinite(state.count) ? state.count : '∞';
+    qEl.textContent = `Question ${state.asked}/${countLabel}: ${state.current.prompt}`;
 
     if(state.commute){
       state.waiting = false;
@@ -423,11 +459,13 @@
   }
 
   function startQuiz(){
-    state.count = parseInt($('count').value, 10) || 10;
+    state.count = parseQuestionCount();
     state.minTable = parseInt($('minTable').value, 10) || 1;
     state.maxTable = parseInt($('maxTable').value, 10) || 12;
     state.minMultiplier = parseInt($('minMultiplier').value, 10) || 1;
     state.maxMultiplier = parseInt($('maxMultiplier').value, 10) || 12;
+    state.minRange = state.minTable;
+    state.maxRange = Math.max(state.minRange, state.maxTable);
     state.selected = getSelectedCategories();
     updateModeControls();
     state.asked = 0; state.correct = 0; state.running = true;
@@ -473,7 +511,7 @@
     if(state.current.isRevision){
       if(ok) recordRevisionCorrect(state.current.questionText);
     } else if(!ok){
-      addRevision({question:qtext, answer: String(correctVal)});
+      addRevision({question:qtext, answer: String(correctVal), type: state.current.type});
     }
 
     state.current = null;
@@ -525,6 +563,10 @@
   }
 
   $('practiceMode').addEventListener('change', updateModeControls);
+  $('count').addEventListener('input', () => {
+    if(state.running) state.count = parseQuestionCount();
+    updateUI();
+  });
 
   function startRecognition(){
     if(!recognition || !state.running) return;
