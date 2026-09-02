@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Voice Multiplication Quiz</title>
+  <style>
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,sans-serif;background:linear-gradient(135deg,#667eea 0%,#764ba2 100%);min-height:100vh;display:flex;align-items:center;justify-content:center;padding:12px}
+    .container{background:white;border-radius:12px;box-shadow:0 10px 40px rgba(0,0,0,0.2);max-width:600px;width:100%;padding:32px;animation:slideIn 0.3s ease-out}
+    @keyframes slideIn{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+    header{text-align:center;margin-bottom:24px}
+    .title{font-size:28px;font-weight:700;color:#333;margin-bottom:4px}
+    .subtitle{font-size:13px;color:#888;text-transform:uppercase;letter-spacing:0.5px}
+
+    .progress-section{margin-bottom:24px}
+    .progress-bar{background:#e0e0e0;height:8px;border-radius:4px;overflow:hidden;margin-bottom:8px}
+    .progress-fill{background:linear-gradient(90deg,#667eea,#764ba2);height:100%;transition:width 0.3s ease}
+    .progress-text{font-size:12px;color:#666;text-align:center}
+
+    .stats-display{display:flex;gap:12px;margin-bottom:20px;justify-content:space-around;flex-wrap:wrap}
+    .stat-box{background:#f5f5f5;padding:12px 16px;border-radius:8px;text-align:center;flex:1;min-width:80px}
+    .stat-number{font-size:20px;font-weight:700;color:#667eea}
+    .stat-label{font-size:11px;color:#999;text-transform:uppercase;letter-spacing:0.3px;margin-top:4px}
+
+    .question-box{background:linear-gradient(135deg,#f5f7fa 0%,#c3cfe2 100%);padding:24px;border-radius:10px;margin-bottom:20px;min-height:80px;display:flex;align-items:center;justify-content:center}
+    .question-text{font-size:32px;font-weight:600;color:#333;text-align:center;line-height:1.2}
+
+    .controls-section{margin-bottom:20px}
+    .control-row{display:flex;gap:8px;margin-bottom:8px;flex-wrap:wrap;align-items:center}
+    .control-group{display:flex;gap:8px;align-items:center;flex:1}
+    label{display:flex;align-items:center;gap:6px;font-size:13px;color:#555;white-space:nowrap}
+    input[type="number"]{padding:6px 8px;border:1px solid #ddd;border-radius:4px;width:60px;font-size:13px}
+    input[type="checkbox"]{cursor:pointer}
+
+    button{padding:10px 16px;border:none;border-radius:6px;font-size:13px;font-weight:600;cursor:pointer;transition:all 0.2s;text-transform:uppercase;letter-spacing:0.5px}
+    .btn-primary{background:linear-gradient(135deg,#667eea,#764ba2);color:white}
+    .btn-primary:hover:not(:disabled){transform:translateY(-2px);box-shadow:0 4px 12px rgba(102,126,234,0.4)}
+    .btn-primary:disabled{opacity:0.5;cursor:not-allowed}
+    .btn-secondary{background:#f0f0f0;color:#333}
+    .btn-secondary:hover:not(:disabled){background:#e0e0e0;transform:translateY(-1px)}
+    .btn-small{padding:6px 12px;font-size:12px}
+
+    .input-section{margin-bottom:16px;display:flex;gap:8px;flex-wrap:wrap}
+    input[type="text"]{flex:1;min-width:150px;padding:8px 12px;border:1px solid #ddd;border-radius:6px;font-size:13px}
+
+    .response-info{text-align:center;color:#666;font-size:12px;margin-bottom:12px}
+    .listening-indicator{display:inline-block;width:8px;height:8px;background:#4caf50;border-radius:50%;margin-right:4px;animation:pulse 1.5s infinite}
+    @keyframes pulse{0%,100%{opacity:1}50%{opacity:0.3}}
+
+    .log{background:#f9f9f9;border:1px solid #eee;border-radius:6px;padding:12px;height:120px;overflow-y:auto;font-size:12px;color:#666;line-height:1.4}
+    .log-entry{margin-bottom:4px;padding:2px 0}
+    .log-entry.success{color:#4caf50}
+    .log-entry.error{color:#f44336}
+    .log-entry.info{color:#2196f3}
+
+    .stats-panel{display:none;background:#f5f5f5;border-radius:10px;padding:16px;margin-top:16px;border-left:4px solid #667eea}
+    .stats-panel.show{display:block;animation:slideIn 0.3s ease-out}
+    .stats-panel h3{margin-bottom:12px;color:#333;font-size:16px}
+    .stats-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:12px}
+    .stats-item{background:white;padding:10px;border-radius:6px;border-left:3px solid #667eea}
+    .stats-item-label{font-size:11px;color:#999;text-transform:uppercase}
+    .stats-item-value{font-size:18px;font-weight:700;color:#667eea;margin-top:4px}
+
+    .mode-badge{display:inline-block;padding:4px 8px;border-radius:4px;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:0.3px;margin-left:8px}
+    .mode-badge.commute{background:#fff3cd;color:#856404}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="title">🎯 Math Quiz</div>
+      <div class="subtitle">Voice-enabled multiplication trainer</div>
+    </header>
+
+    <div class="progress-section">
+      <div class="progress-bar"><div class="progress-fill" id="progressFill" style="width:0%"></div></div>
+      <div class="progress-text"><span id="progressText">0/10</span></div>
+    </div>
+
+    <div class="stats-display">
+      <div class="stat-box">
+        <div class="stat-number" id="scoreDisplay">0</div>
+        <div class="stat-label">Correct</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-number" id="streakDisplay">0</div>
+        <div class="stat-label">Streak</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-number" id="accuracyDisplay">0%</div>
+        <div class="stat-label">Accuracy</div>
+      </div>
+    </div>
+
+    <div class="question-box">
+      <div class="question-text" id="question">Press Start to begin</div>
+    </div>
+
+    <div class="response-info">
+      <span id="listeningStatus" style="display:none"><span class="listening-indicator"></span>Listening...</span>
+      <span id="responseTime" style="color:#667eea"></span>
+    </div>
+
+    <div class="controls-section">
+      <div class="control-row">
+        <div class="control-group">
+          <label>Questions:</label>
+          <input id="count" type="number" value="10" min="1">
+        </div>
+        <div class="control-group">
+          <label>Max table:</label>
+          <input id="maxTable" type="number" value="12" min="1">
+        </div>
+        <div class="control-group">
+          <label>Max multiplier:</label>
+          <input id="maxMultiplier" type="number" value="12" min="1">
+        </div>
+      </div>
+
+      <div class="control-row" style="margin-top:10px; display:block;">
+        <label for="practiceMode" style="display:block; margin-bottom:8px; font-weight:600; color:#333;">Practice mode</label>
+        <select id="practiceMode" style="width:100%; padding:10px 12px; border:1px solid #ddd; border-radius:6px; font-size:14px; background:white;">
+          <option value="multiplication" selected>Tables (default)</option>
+          <option value="squares">Squares</option>
+          <option value="cubes">Cubes</option>
+          <option value="squareRoots">Square roots</option>
+          <option value="cubeRoots">Cube roots</option>
+          <option value="fractionToPercent">Fraction → Percentage</option>
+          <option value="percentToFraction">Percentage → Fraction</option>
+          <option value="fractionToDecimal">Fraction → Decimal</option>
+          <option value="decimalToFraction">Decimal → Fraction</option>
+        </select>
+      </div>
+
+      <div class="control-row" style="margin-top:10px;">
+        <div class="control-group table-settings">
+          <label>Min table:</label>
+          <input id="minTable" type="number" value="1" min="1">
+        </div>
+        <div class="control-group table-settings">
+          <label>Max table:</label>
+          <input id="maxTable" type="number" value="12" min="1">
+        </div>
+        <div class="control-group table-settings">
+          <label>Min multiplier:</label>
+          <input id="minMultiplier" type="number" value="1" min="1">
+        </div>
+        <div class="control-group table-settings">
+          <label>Max multiplier:</label>
+          <input id="maxMultiplier" type="number" value="12" min="1">
+        </div>
+      </div>
+
+      <div class="control-row">
+        <button id="start" class="btn-primary">Start Quiz</button>
+        <button id="stop" class="btn-secondary" disabled>Stop</button>
+        <label style="flex:1"><input id="commuteToggle" type="checkbox"> Commute Mode <span class="mode-badge commute" id="commuteBadge" style="display:none">Active</span></label>
+        <button id="showStats" class="btn-secondary btn-small">Stats</button>
+      </div>
+    </div>
+
+    <div class="input-section">
+      <input id="typedAnswer" type="text" placeholder="Type answer (fallback)">
+      <button id="submitTyped" class="btn-secondary">Submit</button>
+    </div>
+
+    <div class="log" id="log"></div>
+
+    <section id="statsPanel" class="stats-panel">
+      <h3>📊 Statistics</h3>
+      <div class="stats-grid">
+        <div class="stats-item">
+          <div class="stats-item-label">Accuracy</div>
+          <div class="stats-item-value" id="statAccuracy">--</div>
+        </div>
+        <div class="stats-item">
+          <div class="stats-item-label">Best Streak</div>
+          <div class="stats-item-value" id="statBestStreak">--</div>
+        </div>
+        <div class="stats-item">
+          <div class="stats-item-label">Questions</div>
+          <div class="stats-item-value" id="statSolved">--</div>
+        </div>
+        <div class="stats-item">
+          <div class="stats-item-label">Avg Response</div>
+          <div class="stats-item-value" id="statAvgTime">-- ms</div>
+        </div>
+        <div class="stats-item">
+          <div class="stats-item-label">Revision Queue</div>
+          <div class="stats-item-value" id="statRevisionSize">0</div>
+        </div>
+        <div class="stats-item">
+          <div class="stats-item-label">Last Played</div>
+          <div class="stats-item-value" id="statLastPlayed" style="font-size:12px">--</div>
+        </div>
+      </div>
+      <button id="clearStats" class="btn-secondary">Clear All Stats</button>
+    </section>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

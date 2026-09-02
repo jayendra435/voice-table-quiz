@@ -1,0 +1,14 @@
+# Local HTTPS credentials
+server.key
+server.crt
+
+# Python cache and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
