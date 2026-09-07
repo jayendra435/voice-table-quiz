@@ -85,7 +85,7 @@
     return text === '' || text === 'infinity' || text === 'inf' ? Infinity : Math.max(1, parseInt(text, 10) || 10);
   }
 
-  function buildQuestion(type){
+  function buildQuestion(type, key){
     const q = {};
     const squarePool = Array.from({ length: 50 }, (_, i) => (i + 1) * (i + 1));
     const cubePool = Array.from({ length: 30 }, (_, i) => (i + 1) * (i + 1) * (i + 1));
@@ -120,29 +120,29 @@
         const maxTable = Math.max(minTable, Number(state.maxTable) || 12);
         const minMultiplier = Math.max(1, Number(state.minMultiplier) || 1);
         const maxMultiplier = Math.max(minMultiplier, Number(state.maxMultiplier) || 12);
-        const a = randomInt(minTable, maxTable);
-        const b = randomInt(minMultiplier, maxMultiplier);
+        const a = key ? key.a : randomInt(minTable, maxTable);
+        const b = key ? key.b : randomInt(minMultiplier, maxMultiplier);
         q.type = 'multiplication';
         q.prompt = `What is ${a} × ${b}?`;
         q.answer = String(a * b);
         return q;
       }
       case 'squares': {
-        const n = randomInt(state.minRange || 1, state.maxRange || 50);
+        const n = key ? key.n : randomInt(state.minRange || 1, state.maxRange || 50);
         q.type = 'squares';
         q.prompt = `What is ${n}²?`;
         q.answer = String(n * n);
         return q;
       }
       case 'cubes': {
-        const n = randomInt(state.minRange || 1, state.maxRange || 30);
+        const n = key ? key.n : randomInt(state.minRange || 1, state.maxRange || 30);
         q.type = 'cubes';
         q.prompt = `What is ${n}³?`;
         q.answer = String(n * n * n);
         return q;
       }
       case 'squareRoots': {
-        const root = randomInt(state.minRange || 1, state.maxRange || 50);
+        const root = key ? key.root : randomInt(state.minRange || 1, state.maxRange || 50);
         const n = root * root;
         q.type = 'squareRoots';
         q.prompt = `What is √${n}?`;
@@ -150,7 +150,7 @@
         return q;
       }
       case 'cubeRoots': {
-        const root = randomInt(state.minRange || 1, state.maxRange || 30);
+        const root = key ? key.root : randomInt(state.minRange || 1, state.maxRange || 30);
         const n = root * root * root;
         q.type = 'cubeRoots';
         q.prompt = `What is ∛${n}?`;
@@ -158,28 +158,28 @@
         return q;
       }
       case 'fractionToPercent': {
-        const pair = fractionPercentPairs[randomInt(0, fractionPercentPairs.length - 1)];
+        const pair = fractionPercentPairs[key ? key.index : randomInt(0, fractionPercentPairs.length - 1)];
         q.type = 'fractionToPercent';
         q.prompt = `What is ${pair.text} as a percentage?`;
         q.answer = pair.answer;
         return q;
       }
       case 'percentToFraction': {
-        const pair = percentFractionPairs[randomInt(0, percentFractionPairs.length - 1)];
+        const pair = percentFractionPairs[key ? key.index : randomInt(0, percentFractionPairs.length - 1)];
         q.type = 'percentToFraction';
         q.prompt = `What is ${pair.text} as a fraction in simplest form?`;
         q.answer = pair.answer;
         return q;
       }
       case 'fractionToDecimal': {
-        const pair = fractionDecimalPairs[randomInt(0, fractionDecimalPairs.length - 1)];
+        const pair = fractionDecimalPairs[key ? key.index : randomInt(0, fractionDecimalPairs.length - 1)];
         q.type = 'fractionToDecimal';
         q.prompt = `What is ${pair.text} as a decimal?`;
         q.answer = pair.answer;
         return q;
       }
       case 'decimalToFraction': {
-        const pair = decimalFractionPairs[randomInt(0, decimalFractionPairs.length - 1)];
+        const pair = decimalFractionPairs[key ? key.index : randomInt(0, decimalFractionPairs.length - 1)];
         q.type = 'decimalToFraction';
         q.prompt = `What is ${pair.text} as a fraction in simplest form?`;
         q.answer = pair.answer;
@@ -192,6 +192,65 @@
 
   let state = { running: false, count: Infinity, asked: 0, current: null, waitSeconds: 5, timer: null, selected: ['multiplication'] };
 
+  function shuffle(items){
+    for(let index = items.length - 1; index > 0; index -= 1){
+      const swapIndex = randomInt(0, index);
+      [items[index], items[swapIndex]] = [items[swapIndex], items[index]];
+    }
+    return items;
+  }
+
+  function getPoolSignature(){
+    const mode = getSelectedMode();
+    const values = [mode, $('minTable').value, $('maxTable').value, $('minMultiplier').value, $('maxMultiplier').value];
+    return values.join('|');
+  }
+
+  function createQuestionPool(){
+    const mode = getSelectedMode();
+    const pool = [];
+
+    if(mode === 'multiplication'){
+      for(let a = state.minTable; a <= state.maxTable; a += 1){
+        for(let b = state.minMultiplier; b <= state.maxMultiplier; b += 1){
+          pool.push({a, b});
+        }
+      }
+    } else if(mode === 'squares' || mode === 'cubes'){
+      for(let n = state.minRange; n <= state.maxRange; n += 1) pool.push({n});
+    } else if(mode === 'squareRoots' || mode === 'cubeRoots'){
+      for(let root = state.minRange; root <= state.maxRange; root += 1) pool.push({root});
+    } else {
+      const pairCount = 11;
+      for(let index = 0; index < pairCount; index += 1) pool.push({index});
+    }
+
+    return shuffle(pool);
+  }
+
+  function resetQuestionPool(){
+    state.pool = [];
+    state.poolSignature = getPoolSignature();
+  }
+
+  function prepareQuestionSettings(){
+    state.minTable = parseInt($('minTable').value, 10) || 1;
+    state.maxTable = Math.max(state.minTable, parseInt($('maxTable').value, 10) || 30);
+    state.minMultiplier = parseInt($('minMultiplier').value, 10) || 1;
+    state.maxMultiplier = Math.max(state.minMultiplier, parseInt($('maxMultiplier').value, 10) || 30);
+    state.minRange = state.minTable;
+    state.maxRange = Math.max(state.minRange, state.maxTable);
+  }
+
+  function takeNextQuestionKey(){
+    const signature = getPoolSignature();
+    if(state.poolSignature !== signature || !state.pool || state.pool.length === 0){
+      state.poolSignature = signature;
+      state.pool = createQuestionPool();
+    }
+    return state.pool.pop();
+  }
+
   function nextQuestion(){
     if(Number.isFinite(state.count) && state.asked >= state.count){
       stopQuiz();
@@ -201,9 +260,9 @@
       return;
     }
 
-    const selected = getSelectedCategories();
-    const type = selected[Math.floor(Math.random() * selected.length)];
-    state.current = buildQuestion(type);
+    const type = getSelectedMode();
+    const questionKey = takeNextQuestionKey();
+    state.current = buildQuestion(type, questionKey);
     state.current.type = state.current.type || type;
     state.asked += 1;
     const countLabel = Number.isFinite(state.count) ? state.count : '∞';
@@ -236,14 +295,10 @@
   function startQuiz(){
     state.count = parseQuestionCount();
     state.waitSeconds = Math.max(1, parseInt($('waitSeconds').value, 10) || 5);
-    state.minTable = parseInt($('minTable').value, 10) || 1;
-    state.maxTable = parseInt($('maxTable').value, 10) || 12;
-    state.minMultiplier = parseInt($('minMultiplier').value, 10) || 1;
-    state.maxMultiplier = parseInt($('maxMultiplier').value, 10) || 12;
-    state.minRange = state.minTable;
-    state.maxRange = Math.max(state.minRange, state.maxTable);
+    prepareQuestionSettings();
     state.selected = getSelectedCategories();
     updateModeControls();
+    resetQuestionPool();
     state.asked = 0; state.running = true;
     startBtn.disabled = true; stopBtn.disabled = false;
     updateUI();
@@ -262,6 +317,30 @@
   }
 
   $('practiceMode').addEventListener('change', updateModeControls);
+  $('practiceMode').addEventListener('change', () => {
+    prepareQuestionSettings();
+    resetQuestionPool();
+    if(state.running){
+      clearInterval(state.timer);
+      clearTimeout(state.timer);
+      if(synth) synth.cancel();
+      state.current = null;
+      nextQuestion();
+    }
+  });
+  document.querySelectorAll('.mode-setting input').forEach(input => {
+    input.addEventListener('change', () => {
+      prepareQuestionSettings();
+      resetQuestionPool();
+      if(state.running){
+        clearInterval(state.timer);
+        clearTimeout(state.timer);
+        if(synth) synth.cancel();
+        state.current = null;
+        nextQuestion();
+      }
+    });
+  });
   $('count').addEventListener('input', () => {
     if(state.running) state.count = parseQuestionCount();
     updateUI();

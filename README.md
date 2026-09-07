@@ -51,6 +51,8 @@ A browser-based math self-check trainer. The system asks each question aloud, wa
 - **Spoken Questions and Answers**: Browser speech synthesis reads both aloud
 - **Self-check Timing**: Configurable wait before answer reveal
 - **Unlimited Practice**: Continue until Stop, or enter a fixed question count
+- **Complete Random Cycles**: Every valid question in the selected range appears once in randomized order before the pool resets
+- **Automatic Range Reset**: Changing practice mode or range settings starts a fresh question pool
 - **Practice Modes**: Tables, squares, cubes, roots, and fraction conversions
 - **Responsive**: Works on desktop and mobile
 
