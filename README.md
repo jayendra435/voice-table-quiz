@@ -53,7 +53,8 @@ A browser-based math self-check trainer. The system asks each question aloud, wa
 - **Unlimited Practice**: Continue until Stop, or enter a fixed question count
 - **Complete Random Cycles**: Every valid question in the selected range appears once in randomized order before the pool resets
 - **Automatic Range Reset**: Changing practice mode or range settings starts a fresh question pool
-- **Practice Modes**: Tables, squares, cubes, roots, and fraction conversions
+- **Practice Modes**: Addition, tables, squares, cubes, roots, and fraction conversions
+- **Addition Ranges**: Choose the number of digits in each addend, such as 2-digit + 2-digit or 3-digit + 3-digit
 - **Responsive**: Works on desktop and mobile
 
 ## Notes

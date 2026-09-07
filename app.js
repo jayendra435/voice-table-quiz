@@ -8,6 +8,7 @@
 
   const MODE_LABELS = {
     multiplication: 'Tables',
+    addition: 'Addition',
     squares: 'Squares',
     cubes: 'Cubes',
     squareRoots: 'Square roots',
@@ -23,6 +24,7 @@
       ['minTable', 'Min table', 1, 30], ['maxTable', 'Max table', 30, 30],
       ['minMultiplier', 'Min multiplier', 1, 30], ['maxMultiplier', 'Max multiplier', 30, 30]
     ],
+    addition: [['additionDigits', 'Digits per addend', 2, 4]],
     squares: [['minTable', 'Min square', 1, 50], ['maxTable', 'Max square', 50, 50]],
     cubes: [['minTable', 'Min cube', 1, 30], ['maxTable', 'Max cube', 30, 30]],
     squareRoots: [['minTable', 'Min square', 1, 50], ['maxTable', 'Max square', 50, 50]],
@@ -115,6 +117,17 @@
     ];
 
     switch(type){
+      case 'addition': {
+        const digits = key ? key.digits : (state.additionDigits || 2);
+        const min = 10 ** (digits - 1);
+        const max = (10 ** digits) - 1;
+        const a = key ? key.a : randomInt(min, max);
+        const b = key ? key.b : randomInt(min, max);
+        q.type = 'addition';
+        q.prompt = `What is ${a} + ${b}?`;
+        q.answer = String(a + b);
+        return q;
+      }
       case 'multiplication': {
         const minTable = Math.max(1, Number(state.minTable) || 1);
         const maxTable = Math.max(minTable, Number(state.maxTable) || 12);
@@ -202,7 +215,7 @@
 
   function getPoolSignature(){
     const mode = getSelectedMode();
-    const values = [mode, $('minTable').value, $('maxTable').value, $('minMultiplier').value, $('maxMultiplier').value];
+    const values = [mode, $('minTable').value, $('maxTable').value, $('minMultiplier').value, $('maxMultiplier').value, $('additionDigits').value];
     return values.join('|');
   }
 
@@ -210,7 +223,16 @@
     const mode = getSelectedMode();
     const pool = [];
 
-    if(mode === 'multiplication'){
+    if(mode === 'addition'){
+      const digits = state.additionDigits;
+      const min = 10 ** (digits - 1);
+      const max = (10 ** digits) - 1;
+      for(let a = min; a <= max; a += 1){
+        for(let b = min; b <= max; b += 1){
+          pool.push({digits, a, b});
+        }
+      }
+    } else if(mode === 'multiplication'){
       for(let a = state.minTable; a <= state.maxTable; a += 1){
         for(let b = state.minMultiplier; b <= state.maxMultiplier; b += 1){
           pool.push({a, b});
@@ -234,6 +256,7 @@
   }
 
   function prepareQuestionSettings(){
+    state.additionDigits = Math.max(1, Math.min(4, parseInt($('additionDigits').value, 10) || 2));
     state.minTable = parseInt($('minTable').value, 10) || 1;
     state.maxTable = Math.max(state.minTable, parseInt($('maxTable').value, 10) || 30);
     state.minMultiplier = parseInt($('minMultiplier').value, 10) || 1;

@@ -92,6 +92,7 @@
         <label for="practiceMode" style="display:block; margin-bottom:8px; font-weight:600; color:#333;">Practice mode</label>
         <select id="practiceMode" style="width:100%; padding:10px 12px; border:1px solid #ddd; border-radius:6px; font-size:14px; background:white;">
           <option value="multiplication" selected>Tables (default)</option>
+          <option value="addition">Addition</option>
           <option value="squares">Squares</option>
           <option value="cubes">Cubes</option>
           <option value="squareRoots">Square roots</option>
@@ -130,6 +131,10 @@
         <div class="control-group mode-setting" data-setting="maxMultiplier">
           <label for="maxMultiplier">Max multiplier:</label>
           <input id="maxMultiplier" type="number" value="30" min="1" max="30">
+        </div>
+        <div class="control-group mode-setting" data-setting="additionDigits">
+          <label for="additionDigits">Digits per addend:</label>
+          <input id="additionDigits" type="number" value="2" min="1" max="4">
         </div>
       </div>
 
