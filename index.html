@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Voice Multiplication Quiz</title>
+  <title>Math Self-Check Quiz</title>
   <style>
     *{box-sizing:border-box;margin:0;padding:0}
     body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,Cantarell,sans-serif;background:linear-gradient(135deg,#667eea 0%,#764ba2 100%);min-height:100vh;display:flex;align-items:center;justify-content:center;padding:12px}
@@ -70,27 +70,12 @@
   <div class="container">
     <header>
       <div class="title">🎯 Math Quiz</div>
-      <div class="subtitle">Voice-enabled multiplication trainer</div>
+      <div class="subtitle">Listen, think, and check your answer</div>
     </header>
 
     <div class="progress-section">
       <div class="progress-bar"><div class="progress-fill" id="progressFill" style="width:0%"></div></div>
-      <div class="progress-text"><span id="progressText">0/10</span></div>
-    </div>
-
-    <div class="stats-display">
-      <div class="stat-box">
-        <div class="stat-number" id="scoreDisplay">0</div>
-        <div class="stat-label">Correct</div>
-      </div>
-      <div class="stat-box">
-        <div class="stat-number" id="streakDisplay">0</div>
-        <div class="stat-label">Streak</div>
-      </div>
-      <div class="stat-box">
-        <div class="stat-number" id="accuracyDisplay">0%</div>
-        <div class="stat-label">Accuracy</div>
-      </div>
+      <div class="progress-text"><span id="progressText">0/∞</span></div>
     </div>
 
     <div class="question-box">
@@ -98,8 +83,8 @@
     </div>
 
     <div class="response-info">
-      <span id="listeningStatus" style="display:none"><span class="listening-indicator"></span>Listening...</span>
-      <span id="responseTime" style="color:#667eea"></span>
+      <span id="countdownText">Answer reveal in 5 seconds</span>
+      <span id="answerText" style="display:block; margin-top:8px; color:#667eea; font-weight:600"></span>
     </div>
 
     <div class="controls-section">
@@ -122,6 +107,10 @@
         <div class="control-group">
           <label for="count">Number of questions:</label>
           <input id="count" type="text" value="Infinity" inputmode="numeric" placeholder="Infinity">
+        </div>
+        <div class="control-group">
+          <label for="waitSeconds">Wait seconds:</label>
+          <input id="waitSeconds" type="number" value="5" min="1" max="60">
         </div>
       </div>
 
@@ -147,48 +136,8 @@
       <div class="control-row">
         <button id="start" class="btn-primary">Start Quiz</button>
         <button id="stop" class="btn-secondary" disabled>Stop</button>
-        <label style="flex:1"><input id="commuteToggle" type="checkbox"> Commute Mode <span class="mode-badge commute" id="commuteBadge" style="display:none">Active</span></label>
-        <button id="showStats" class="btn-secondary btn-small">Stats</button>
       </div>
     </div>
-
-    <div class="input-section">
-      <input id="typedAnswer" type="text" placeholder="Type answer (fallback)">
-      <button id="submitTyped" class="btn-secondary">Submit</button>
-    </div>
-
-    <div class="log" id="log"></div>
-
-    <section id="statsPanel" class="stats-panel">
-      <h3>📊 Statistics</h3>
-      <div class="stats-grid">
-        <div class="stats-item">
-          <div class="stats-item-label">Accuracy</div>
-          <div class="stats-item-value" id="statAccuracy">--</div>
-        </div>
-        <div class="stats-item">
-          <div class="stats-item-label">Best Streak</div>
-          <div class="stats-item-value" id="statBestStreak">--</div>
-        </div>
-        <div class="stats-item">
-          <div class="stats-item-label">Questions</div>
-          <div class="stats-item-value" id="statSolved">--</div>
-        </div>
-        <div class="stats-item">
-          <div class="stats-item-label">Avg Response</div>
-          <div class="stats-item-value" id="statAvgTime">-- ms</div>
-        </div>
-        <div class="stats-item">
-          <div class="stats-item-label">Revision Queue</div>
-          <div class="stats-item-value" id="statRevisionSize">0</div>
-        </div>
-        <div class="stats-item">
-          <div class="stats-item-label">Last Played</div>
-          <div class="stats-item-value" id="statLastPlayed" style="font-size:12px">--</div>
-        </div>
-      </div>
-      <button id="clearStats" class="btn-secondary">Clear All Stats</button>
-    </section>
   </div>
 
   <script src="app.js"></script>
