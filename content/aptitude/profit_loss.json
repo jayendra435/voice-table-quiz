@@ -1,0 +1,38 @@
+[
+  {
+    "id": "aptitude-profit-loss-001",
+    "contentType": "problem",
+    "subject": "aptitude",
+    "category": "profit_and_loss",
+    "subcategory": "successive_discount",
+    "title": "Successive Discount Model",
+    "question": "An article receives successive discounts of 10% and 20%. What is the equivalent discount?",
+    "answer": "28%",
+    "explanation": "Equivalent discount = 1 - (0.90 x 0.80) = 28%.",
+    "stage": "learning",
+    "difficulty": "medium",
+    "setId": "profit-loss-successive-discount-001",
+    "parentId": null,
+    "tags": ["ssc", "cgl", "discount"],
+    "source": { "type": "sample", "url": "" },
+    "presentation": { "audio": false, "display": true, "answerReveal": "timer_or_click" }
+  },
+  {
+    "id": "aptitude-profit-loss-001-p01",
+    "contentType": "problem",
+    "subject": "aptitude",
+    "category": "profit_and_loss",
+    "subcategory": "successive_discount",
+    "title": "Successive Discount Practice",
+    "question": "An item receives successive discounts of 15% and 10%. What is the equivalent discount?",
+    "answer": "23.5%",
+    "explanation": "Equivalent discount = 1 - (0.85 x 0.90) = 23.5%.",
+    "stage": "practice",
+    "difficulty": "medium",
+    "setId": "profit-loss-successive-discount-001",
+    "parentId": "aptitude-profit-loss-001",
+    "tags": ["ssc", "cgl", "discount"],
+    "source": { "type": "sample", "url": "" },
+    "presentation": { "audio": false, "display": true, "answerReveal": "timer_or_click" }
+  }
+]

@@ -93,6 +93,7 @@
         <select id="practiceMode" style="width:100%; padding:10px 12px; border:1px solid #ddd; border-radius:6px; font-size:14px; background:white;">
           <option value="multiplication" selected>Tables (default)</option>
           <option value="addition">Addition</option>
+          <option value="content">Content library (display only)</option>
           <option value="squares">Squares</option>
           <option value="cubes">Cubes</option>
           <option value="squareRoots">Square roots</option>
@@ -113,6 +114,16 @@
           <label for="waitSeconds">Wait seconds:</label>
           <input id="waitSeconds" type="number" value="5" min="1" max="60">
         </div>
+      </div>
+
+      <div id="contentSettings" class="control-row" style="margin-top:10px; display:none;">
+        <div class="control-group">
+          <label for="contentCategory">Category:</label>
+          <select id="contentCategory" style="flex:1; padding:7px 8px; border:1px solid #ddd; border-radius:4px; font-size:13px;">
+            <option value="aptitude/profit_loss.json">Aptitude: Profit and Loss</option>
+          </select>
+        </div>
+        <button id="revealAnswer" class="btn-secondary" type="button">Show Answer</button>
       </div>
 
       <div id="modeSettings" class="control-row" style="margin-top:10px; display:grid; grid-template-columns:repeat(auto-fit, minmax(150px, 1fr));">

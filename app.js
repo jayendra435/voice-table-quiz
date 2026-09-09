@@ -29,7 +29,11 @@
     cubes: [['minTable', 'Min cube', 1, 30], ['maxTable', 'Max cube', 30, 30]],
     squareRoots: [['minTable', 'Min square', 1, 50], ['maxTable', 'Max square', 50, 50]],
     cubeRoots: [['minTable', 'Min cube', 1, 30], ['maxTable', 'Max cube', 30, 30]],
-    fractionToPercent: [], percentToFraction: [], fractionToDecimal: [], decimalToFraction: []
+    fractionToPercent: [], percentToFraction: [], fractionToDecimal: [], decimalToFraction: [], content: []
+  };
+
+  const CONTENT_FILES = {
+    'aptitude/profit_loss.json': 'Aptitude: Profit and Loss'
   };
 
   function getSelectedMode(){
@@ -50,6 +54,7 @@
         if(!input.value || Number(input.value) > setting[3] || Number(input.value) < 1) input.value = setting[2];
       }
     });
+    $('contentSettings').style.display = mode === 'content' ? 'flex' : 'none';
   }
 
 
@@ -67,6 +72,13 @@
 
   function speechText(text){
     return String(text).replace(/(\d+)\s*\/\s*(\d+)/g, '$1 by $2');
+  }
+
+  async function loadContentQuestions(){
+    const path = $('contentCategory').value;
+    const response = await fetch(`content/${path}`);
+    if(!response.ok) throw new Error(`Could not load ${path}`);
+    return response.json();
   }
 
   function randomInt(min, max){ return Math.floor(Math.random() * (max - min + 1)) + min; }
@@ -117,6 +129,13 @@
     ];
 
     switch(type){
+      case 'content':
+        q.type = 'content';
+        q.prompt = key.question;
+        q.answer = key.answer;
+        q.explanation = key.explanation || '';
+        q.contentId = key.id;
+        return q;
       case 'addition': {
         const digits = key ? key.digits : (state.additionDigits || 2);
         const min = 10 ** (digits - 1);
@@ -203,7 +222,7 @@
     }
   }
 
-  let state = { running: false, count: Infinity, asked: 0, current: null, waitSeconds: 5, timer: null, selected: ['multiplication'] };
+  let state = { running: false, count: Infinity, asked: 0, current: null, waitSeconds: 5, timer: null, selected: ['multiplication'], contentQuestions: [] };
 
   function shuffle(items){
     for(let index = items.length - 1; index > 0; index -= 1){
@@ -215,7 +234,7 @@
 
   function getPoolSignature(){
     const mode = getSelectedMode();
-    const values = [mode, $('minTable').value, $('maxTable').value, $('minMultiplier').value, $('maxMultiplier').value, $('additionDigits').value];
+    const values = [mode, $('minTable').value, $('maxTable').value, $('minMultiplier').value, $('maxMultiplier').value, $('additionDigits').value, $('contentCategory').value];
     return values.join('|');
   }
 
@@ -232,6 +251,8 @@
           pool.push({digits, a, b});
         }
       }
+    } else if(mode === 'content'){
+      pool.push(...state.contentQuestions);
     } else if(mode === 'multiplication'){
       for(let a = state.minTable; a <= state.maxTable; a += 1){
         for(let b = state.minMultiplier; b <= state.maxMultiplier; b += 1){
@@ -292,7 +313,19 @@
     qEl.textContent = `Question ${state.asked}/${countLabel}: ${state.current.prompt}`;
     $('answerText').textContent = '';
     updateUI();
-    speak(`Question ${state.asked}. ${state.current.prompt}`, revealAnswerAfterDelay);
+    if(type === 'content') revealAnswerAfterDelay();
+    else speak(`Question ${state.asked}. ${state.current.prompt}`, revealAnswerAfterDelay);
+  }
+
+  function revealAnswerNow(){
+    clearInterval(state.timer);
+    clearTimeout(state.timer);
+    if(!state.running || !state.current) return;
+    $('countdownText').textContent = 'Answer';
+    $('answerText').textContent = state.current.answer + (state.current.explanation ? ` (${state.current.explanation})` : '');
+    if(state.current.type !== 'content') speak(`The answer is ${state.current.answer}`);
+    state.current = null;
+    state.timer = setTimeout(nextQuestion, 1500);
   }
 
   function revealAnswerAfterDelay(){
@@ -306,21 +339,25 @@
         return;
       }
       clearInterval(state.timer);
-      if(!state.running || !state.current) return;
-      $('countdownText').textContent = 'Answer';
-      $('answerText').textContent = state.current.answer;
-      speak(`The answer is ${state.current.answer}`);
-      state.current = null;
-      state.timer = setTimeout(nextQuestion, 1500);
+      revealAnswerNow();
     }, 1000);
   }
 
-  function startQuiz(){
+  async function startQuiz(){
     state.count = parseQuestionCount();
     state.waitSeconds = Math.max(1, parseInt($('waitSeconds').value, 10) || 5);
     prepareQuestionSettings();
     state.selected = getSelectedCategories();
     updateModeControls();
+    if(getSelectedMode() === 'content'){
+      try{
+        state.contentQuestions = await loadContentQuestions();
+      }catch(error){
+        qEl.textContent = 'Content could not be loaded';
+        $('answerText').textContent = error.message;
+        return;
+      }
+    }
     resetQuestionPool();
     state.asked = 0; state.running = true;
     startBtn.disabled = true; stopBtn.disabled = false;
@@ -348,6 +385,17 @@
       clearTimeout(state.timer);
       if(synth) synth.cancel();
       state.current = null;
+      if(getSelectedMode() === 'content') loadContentQuestions().then(questions => { state.contentQuestions = questions; nextQuestion(); }).catch(error => { $('answerText').textContent = error.message; });
+      else nextQuestion();
+    }
+  });
+  $('contentCategory').addEventListener('change', async () => {
+    resetQuestionPool();
+    if(state.running && getSelectedMode() === 'content'){
+      state.contentQuestions = await loadContentQuestions();
+      clearInterval(state.timer);
+      clearTimeout(state.timer);
+      state.current = null;
       nextQuestion();
     }
   });
@@ -371,6 +419,7 @@
 
   startBtn.addEventListener('click', startQuiz);
   stopBtn.addEventListener('click', stopQuiz);
+  $('revealAnswer').addEventListener('click', revealAnswerNow);
 
   updateModeControls();
 })();

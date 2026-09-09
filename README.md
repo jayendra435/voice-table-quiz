@@ -55,10 +55,21 @@ A browser-based math self-check trainer. The system asks each question aloud, wa
 - **Automatic Range Reset**: Changing practice mode or range settings starts a fresh question pool
 - **Practice Modes**: Addition, tables, squares, cubes, roots, and fraction conversions
 - **Addition Ranges**: Choose the number of digits in each addend, such as 2-digit + 2-digit or 3-digit + 3-digit
+- **Content Library**: JSON-backed display-only questions with subject, category, subcategory, related set, explanation, and source metadata
 - **Responsive**: Works on desktop and mobile
 
 ## Notes
 
 - Recognition quality depends on your browser's provider (usually very good)
 - Internet is needed to load the hosted page and browser speech voices may vary by device
+
+## Content Library
+
+Content questions live in separate files under `content/`. The sample category is:
+
+```text
+content/aptitude/profit_loss.json
+```
+
+Choose **Content library (display only)** to load it. Content questions do not use speech; solve them on paper or mentally, then let the timer reveal the answer or click **Show Answer**. The sample includes a model question and a related practice question sharing the same `setId`.
 
