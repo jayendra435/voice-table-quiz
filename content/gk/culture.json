@@ -1,0 +1,38 @@
+[
+  {
+    "id": "gk-culture-dance-001",
+    "contentType": "recall",
+    "subject": "gk",
+    "category": "culture",
+    "subcategory": "classical_dance",
+    "title": "Bharatanatyam",
+    "question": "Bharatanatyam is a classical dance traditionally associated with which state?",
+    "answer": "Tamil Nadu",
+    "explanation": "Bharatanatyam is traditionally associated with Tamil Nadu.",
+    "stage": "learning",
+    "difficulty": "easy",
+    "setId": "culture-classical-dance-001",
+    "parentId": null,
+    "tags": ["ssc", "culture", "dance"],
+    "source": { "type": "sample", "url": "" },
+    "presentation": { "audio": false, "display": true, "answerReveal": "timer_or_click" }
+  },
+  {
+    "id": "gk-culture-dance-002",
+    "contentType": "recall",
+    "subject": "gk",
+    "category": "culture",
+    "subcategory": "classical_dance",
+    "title": "Kathakali",
+    "question": "Kathakali is a classical dance-drama traditionally associated with which state?",
+    "answer": "Kerala",
+    "explanation": "Kathakali is a classical dance-drama tradition of Kerala.",
+    "stage": "practice",
+    "difficulty": "easy",
+    "setId": "culture-classical-dance-001",
+    "parentId": "gk-culture-dance-001",
+    "tags": ["ssc", "culture", "dance"],
+    "source": { "type": "sample", "url": "" },
+    "presentation": { "audio": false, "display": true, "answerReveal": "timer_or_click" }
+  }
+]

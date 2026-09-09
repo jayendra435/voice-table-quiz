@@ -4,6 +4,7 @@
   const startBtn = $('start');
   const stopBtn = $('stop');
   const qEl = $('question');
+  const nextContentQuestionBtn = $('nextContentQuestion');
   let synth = window.speechSynthesis;
 
   const MODE_LABELS = {
@@ -33,7 +34,10 @@
   };
 
   const CONTENT_FILES = {
-    'aptitude/profit_loss.json': 'Aptitude: Profit and Loss'
+    'aptitude/profit_loss.json': 'Aptitude: Profit and Loss',
+    'aptitude/percentage.json': 'Aptitude: Percentage',
+    'gk/polity.json': 'GK: Polity',
+    'gk/culture.json': 'GK: Culture'
   };
 
   function getSelectedMode(){
@@ -312,6 +316,7 @@
     const countLabel = Number.isFinite(state.count) ? state.count : '∞';
     qEl.textContent = `Question ${state.asked}/${countLabel}: ${state.current.prompt}`;
     $('answerText').textContent = '';
+    nextContentQuestionBtn.disabled = type !== 'content';
     updateUI();
     if(type === 'content') revealAnswerAfterDelay();
     else speak(`Question ${state.asked}. ${state.current.prompt}`, revealAnswerAfterDelay);
@@ -324,8 +329,13 @@
     $('countdownText').textContent = 'Answer';
     $('answerText').textContent = state.current.answer + (state.current.explanation ? ` (${state.current.explanation})` : '');
     if(state.current.type !== 'content') speak(`The answer is ${state.current.answer}`);
+    const isContent = state.current.type === 'content';
     state.current = null;
-    state.timer = setTimeout(nextQuestion, 1500);
+    if(isContent){
+      nextContentQuestionBtn.disabled = false;
+    } else {
+      state.timer = setTimeout(nextQuestion, 1500);
+    }
   }
 
   function revealAnswerAfterDelay(){
@@ -374,6 +384,7 @@
     stopBtn.disabled = true;
     $('countdownText').textContent = 'Stopped';
     $('answerText').textContent = '';
+    nextContentQuestionBtn.disabled = true;
   }
 
   $('practiceMode').addEventListener('change', updateModeControls);
@@ -420,6 +431,11 @@
   startBtn.addEventListener('click', startQuiz);
   stopBtn.addEventListener('click', stopQuiz);
   $('revealAnswer').addEventListener('click', revealAnswerNow);
+  nextContentQuestionBtn.addEventListener('click', () => {
+    if(getSelectedMode() !== 'content') return;
+    nextContentQuestionBtn.disabled = true;
+    nextQuestion();
+  });
 
   updateModeControls();
 })();

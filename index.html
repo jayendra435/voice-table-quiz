@@ -120,10 +120,14 @@
         <div class="control-group">
           <label for="contentCategory">Category:</label>
           <select id="contentCategory" style="flex:1; padding:7px 8px; border:1px solid #ddd; border-radius:4px; font-size:13px;">
-            <option value="aptitude/profit_loss.json">Aptitude: Profit and Loss</option>
+            <option value="aptitude/profit_loss.json">Aptitude / Profit and Loss / Successive Discount</option>
+            <option value="aptitude/percentage.json">Aptitude / Percentage / Successive Change</option>
+            <option value="gk/polity.json">GK / Polity / Fundamental Rights</option>
+            <option value="gk/culture.json">GK / Culture / Classical Dance</option>
           </select>
         </div>
         <button id="revealAnswer" class="btn-secondary" type="button">Show Answer</button>
+        <button id="nextContentQuestion" class="btn-primary" type="button" disabled>Next Question</button>
       </div>
 
       <div id="modeSettings" class="control-row" style="margin-top:10px; display:grid; grid-template-columns:repeat(auto-fit, minmax(150px, 1fr));">

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "gk-polity-article-014",
+    "contentType": "recall",
+    "subject": "gk",
+    "category": "polity",
+    "subcategory": "fundamental_rights",
+    "title": "Right to Equality",
+    "question": "Which Article guarantees equality before law and equal protection of laws?",
+    "answer": "Article 14",
+    "explanation": "Article 14 is part of the Fundamental Right to Equality.",
+    "stage": "learning",
+    "difficulty": "easy",
+    "setId": "polity-fundamental-rights-001",
+    "parentId": null,
+    "tags": ["ssc", "polity", "constitution"],
+    "source": { "type": "sample", "url": "" },
+    "presentation": { "audio": false, "display": true, "answerReveal": "timer_or_click" }
+  },
+  {
+    "id": "gk-polity-article-019",
+    "contentType": "recall",
+    "subject": "gk",
+    "category": "polity",
+    "subcategory": "fundamental_rights",
+    "title": "Abolition of Untouchability",
+    "question": "Which Article abolishes untouchability?",
+    "answer": "Article 17",
+    "explanation": "Article 17 abolishes untouchability and forbids its practice in any form.",
+    "stage": "practice",
+    "difficulty": "easy",
+    "setId": "polity-fundamental-rights-001",
+    "parentId": "gk-polity-article-014",
+    "tags": ["ssc", "polity", "constitution"],
+    "source": { "type": "sample", "url": "" },
+    "presentation": { "audio": false, "display": true, "answerReveal": "timer_or_click" }
+  }
+]

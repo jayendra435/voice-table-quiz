@@ -71,5 +71,5 @@ Content questions live in separate files under `content/`. The sample category i
 content/aptitude/profit_loss.json
 ```
 
-Choose **Content library (display only)** to load it. Content questions do not use speech; solve them on paper or mentally, then let the timer reveal the answer or click **Show Answer**. The sample includes a model question and a related practice question sharing the same `setId`.
+Choose **Content library (display only)** to load a category. Current sample categories include aptitude/profit and loss, aptitude/percentage, GK/polity, and GK/culture. Content questions do not use speech; solve them on paper or mentally, then let the timer reveal the answer or click **Show Answer**. After the answer appears, click **Next Question** to continue. Each sample includes related questions sharing the same `setId`.
 

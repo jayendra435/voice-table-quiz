@@ -1,0 +1,38 @@
+[
+  {
+    "id": "aptitude-percentage-001",
+    "contentType": "problem",
+    "subject": "aptitude",
+    "category": "percentage",
+    "subcategory": "successive_change",
+    "title": "Successive Percentage Change",
+    "question": "A value increases by 20% and then decreases by 20%. What is the net percentage change?",
+    "answer": "4% decrease",
+    "explanation": "1.20 x 0.80 = 0.96, so the net change is a 4% decrease.",
+    "stage": "learning",
+    "difficulty": "medium",
+    "setId": "percentage-successive-change-001",
+    "parentId": null,
+    "tags": ["ssc", "cgl", "percentage"],
+    "source": { "type": "sample", "url": "" },
+    "presentation": { "audio": false, "display": true, "answerReveal": "timer_or_click" }
+  },
+  {
+    "id": "aptitude-percentage-001-p01",
+    "contentType": "problem",
+    "subject": "aptitude",
+    "category": "percentage",
+    "subcategory": "successive_change",
+    "title": "Successive Percentage Practice",
+    "question": "A number increases by 10% and then decreases by 10%. What is the net percentage change?",
+    "answer": "1% decrease",
+    "explanation": "1.10 x 0.90 = 0.99, so the net change is a 1% decrease.",
+    "stage": "practice",
+    "difficulty": "easy",
+    "setId": "percentage-successive-change-001",
+    "parentId": "aptitude-percentage-001",
+    "tags": ["ssc", "cgl", "percentage"],
+    "source": { "type": "sample", "url": "" },
+    "presentation": { "audio": false, "display": true, "answerReveal": "timer_or_click" }
+  }
+]
