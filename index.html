@@ -25,6 +25,8 @@
 
     .question-box{background:linear-gradient(135deg,#f5f7fa 0%,#c3cfe2 100%);padding:24px;border-radius:10px;margin-bottom:20px;min-height:80px;display:flex;align-items:center;justify-content:center}
     .question-text{font-size:32px;font-weight:600;color:#333;text-align:center;line-height:1.2}
+    .question-options{display:grid;gap:8px;margin-top:18px;text-align:left}
+    .question-option{background:white;border:1px solid #dfe3ee;border-radius:6px;padding:9px 11px;font-size:14px;color:#444}
 
     .controls-section{margin-bottom:20px}
     .control-row{display:flex;gap:8px;margin-bottom:8px;flex-wrap:wrap;align-items:center}
@@ -79,7 +81,10 @@
     </div>
 
     <div class="question-box">
-      <div class="question-text" id="question">Press Start to begin</div>
+      <div>
+        <div class="question-text" id="question">Press Start to begin</div>
+        <div id="questionOptions" class="question-options"></div>
+      </div>
     </div>
 
     <div class="response-info">
@@ -93,6 +98,7 @@
         <select id="practiceMode" style="width:100%; padding:10px 12px; border:1px solid #ddd; border-radius:6px; font-size:14px; background:white;">
           <option value="multiplication" selected>Tables (default)</option>
           <option value="addition">Addition</option>
+          <option value="alphabet">Alphabet</option>
           <option value="content">Content library (display only)</option>
           <option value="squares">Squares</option>
           <option value="cubes">Cubes</option>
@@ -124,6 +130,7 @@
             <option value="aptitude/percentage.json">Aptitude / Percentage / Successive Change</option>
             <option value="gk/polity.json">GK / Polity / Fundamental Rights</option>
             <option value="gk/culture.json">GK / Culture / Classical Dance</option>
+            <option value="pyq/ssc_cgl_tier1_2025_09_12_s1_english.json">SSC CGL Tier 1 2025 / English PYQ</option>
           </select>
         </div>
         <button id="revealAnswer" class="btn-secondary" type="button">Show Answer</button>

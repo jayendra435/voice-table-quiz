@@ -10,6 +10,7 @@
   const MODE_LABELS = {
     multiplication: 'Tables',
     addition: 'Addition',
+    alphabet: 'Alphabet',
     squares: 'Squares',
     cubes: 'Cubes',
     squareRoots: 'Square roots',
@@ -78,11 +79,27 @@
     return String(text).replace(/(\d+)\s*\/\s*(\d+)/g, '$1 by $2');
   }
 
+  function renderQuestionOptions(options){
+    const optionsEl = $('questionOptions');
+    optionsEl.replaceChildren();
+    (options || []).forEach(option => {
+      const optionEl = document.createElement('div');
+      optionEl.className = 'question-option';
+      optionEl.textContent = `${option.id}. ${option.text}`;
+      optionsEl.appendChild(optionEl);
+    });
+  }
+
   async function loadContentQuestions(){
     const path = $('contentCategory').value;
     const response = await fetch(`content/${path}`);
     if(!response.ok) throw new Error(`Could not load ${path}`);
-    return response.json();
+    const payload = await response.json();
+    const questions = Array.isArray(payload) ? payload : payload.questions;
+    if(!Array.isArray(questions) || questions.length === 0){
+      throw new Error(`No questions found in ${path}`);
+    }
+    return questions;
   }
 
   function randomInt(min, max){ return Math.floor(Math.random() * (max - min + 1)) + min; }
@@ -133,13 +150,18 @@
     ];
 
     switch(type){
-      case 'content':
+      case 'content': {
         q.type = 'content';
         q.prompt = key.question;
-        q.answer = key.answer;
+        q.options = key.options || [];
+        q.correctOptionIds = key.correctAnswer && key.correctAnswer.optionIds ? key.correctAnswer.optionIds : [];
+        const correctOption = q.options.find(option => q.correctOptionIds.includes(option.id));
+        const answerText = typeof key.answer === 'string' ? key.answer : '';
+        q.answer = answerText || (correctOption ? `${correctOption.id}. ${correctOption.text}` : 'Answer not supplied');
         q.explanation = key.explanation || '';
         q.contentId = key.id;
         return q;
+      }
       case 'addition': {
         const digits = key ? key.digits : (state.additionDigits || 2);
         const min = 10 ** (digits - 1);
@@ -149,6 +171,24 @@
         q.type = 'addition';
         q.prompt = `What is ${a} + ${b}?`;
         q.answer = String(a + b);
+        return q;
+      }
+      case 'alphabet': {
+        const index = key ? key.index : randomInt(0, 25);
+        const letter = String.fromCharCode(65 + index);
+        const pairLetter = String.fromCharCode(90 - index);
+        const questionType = key ? key.questionType : randomInt(1, 3);
+        q.type = 'alphabet';
+        if(questionType === 1){
+          q.prompt = `What is the position of alphabet ${letter}?`;
+          q.answer = String(index + 1);
+        } else if(questionType === 2){
+          q.prompt = `Which alphabet is in position ${index + 1}?`;
+          q.answer = letter;
+        } else {
+          q.prompt = `What is the alphabet pair of ${letter}?`;
+          q.answer = pairLetter;
+        }
         return q;
       }
       case 'multiplication': {
@@ -246,7 +286,13 @@
     const mode = getSelectedMode();
     const pool = [];
 
-    if(mode === 'addition'){
+    if(mode === 'alphabet'){
+      for(let index = 0; index < 26; index += 1){
+        for(let questionType = 1; questionType <= 3; questionType += 1){
+          pool.push({index, questionType});
+        }
+      }
+    } else if(mode === 'addition'){
       const digits = state.additionDigits;
       const min = 10 ** (digits - 1);
       const max = (10 ** digits) - 1;
@@ -315,6 +361,7 @@
     state.asked += 1;
     const countLabel = Number.isFinite(state.count) ? state.count : '∞';
     qEl.textContent = `Question ${state.asked}/${countLabel}: ${state.current.prompt}`;
+    renderQuestionOptions(state.current.options);
     $('answerText').textContent = '';
     nextContentQuestionBtn.disabled = type !== 'content';
     updateUI();
@@ -354,25 +401,27 @@
   }
 
   async function startQuiz(){
-    state.count = parseQuestionCount();
-    state.waitSeconds = Math.max(1, parseInt($('waitSeconds').value, 10) || 5);
-    prepareQuestionSettings();
-    state.selected = getSelectedCategories();
-    updateModeControls();
-    if(getSelectedMode() === 'content'){
-      try{
+    try{
+      state.count = parseQuestionCount();
+      state.waitSeconds = Math.max(1, parseInt($('waitSeconds').value, 10) || 5);
+      prepareQuestionSettings();
+      state.selected = getSelectedCategories();
+      updateModeControls();
+      if(getSelectedMode() === 'content'){
         state.contentQuestions = await loadContentQuestions();
-      }catch(error){
-        qEl.textContent = 'Content could not be loaded';
-        $('answerText').textContent = error.message;
-        return;
       }
+      resetQuestionPool();
+      state.asked = 0; state.running = true;
+      startBtn.disabled = true; stopBtn.disabled = false;
+      updateUI();
+      nextQuestion();
+    }catch(error){
+      state.running = false;
+      startBtn.disabled = false;
+      stopBtn.disabled = true;
+      qEl.textContent = 'Could not start quiz';
+      $('answerText').textContent = error.message;
     }
-    resetQuestionPool();
-    state.asked = 0; state.running = true;
-    startBtn.disabled = true; stopBtn.disabled = false;
-    updateUI();
-    nextQuestion();
   }
 
   function stopQuiz(){
@@ -384,6 +433,7 @@
     stopBtn.disabled = true;
     $('countdownText').textContent = 'Stopped';
     $('answerText').textContent = '';
+    renderQuestionOptions([]);
     nextContentQuestionBtn.disabled = true;
   }
 

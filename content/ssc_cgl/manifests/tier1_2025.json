@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "batch": "ssc-cgl-tier1-2025",
+  "documents": [
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-english",
+      "exam": "SSC CGL",
+      "tier": "tier1",
+      "examYear": "2025",
+      "examDate": "2025-09-12",
+      "shift": "S1",
+      "language": "English",
+      "originalFilename": "2025-09-12_S1_English.pdf",
+      "sourceUrl": "https://www.adda247.com/jobs/wp-content/uploads/sites/22/2026/05/26154106/SSC-CGL-T-I-Similar-Paper-Held-on-12-Sep-2025-S1-English.pdf",
+      "fileSizeBytes": 1002363,
+      "sha256": "2440fa68955a9464fe41c46098e4b6d73abb9e7e181bb6decffa4814c56a0e7c",
+      "pageCount": 21,
+      "totalCharacterCount": 34285,
+      "totalImageCount": 59,
+      "extractionStatus": "complete",
+      "rawPath": "content/ssc_cgl/raw/tier1/2025/ssc-cgl-tier1-2025-09-12-s1-english.json"
+    }
+  ],
+  "updatedAt": "2026-09-10T16:27:01.306556+00:00"
+}

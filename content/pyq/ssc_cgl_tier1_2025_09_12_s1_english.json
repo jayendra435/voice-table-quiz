@@ -1,0 +1,6512 @@
+{
+  "documentId": "ssc-cgl-tier1-2025-09-12-s1-english",
+  "exam": "SSC CGL",
+  "tier": 1,
+  "year": 2025,
+  "date": "2025-09-12",
+  "shift": "S1",
+  "language": "English",
+  "totalQuestions": 100,
+  "questions": [
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q001",
+      "questionNumber": 1,
+      "page": 1,
+      "question": "A man said, “My father’s wife’s only son is the brother of your mother.” How is the man related to you?",
+      "questionRaw": "A man said, “My father’s wife’s only son is the brother of your mother.” How is the man related to you?",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "Uncle"
+        },
+        {
+          "id": "B",
+          "text": "Father"
+        },
+        {
+          "id": "C",
+          "text": "Grandfather"
+        },
+        {
+          "id": "D",
+          "text": "Brother"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "A"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "reasoning",
+      "category": "blood_relation",
+      "subcategory": "family_relation",
+      "topic": "paternal_maternal_relation",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "reasoning",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 1,
+        "questionNumber": 1,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q002",
+      "questionNumber": 2,
+      "page": 1,
+      "question": "In the following question, the second word is related to the first word by a specific pattern of letter \ntransformation. Identify the same pattern and apply it to the third word to find the correct option that completes \nthe analogy. \nCOLD : FRPE :: WARM : ?",
+      "questionRaw": "In the following question, the second word is related to the first word by a specific pattern of letter \ntransformation. Identify the same pattern and apply it to the third word to find the correct option that completes \nthe analogy. \nCOLD : FRPE :: WARM : ?",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "ZDUN"
+        },
+        {
+          "id": "B",
+          "text": "ZDVP"
+        },
+        {
+          "id": "C",
+          "text": "ZDVN"
+        },
+        {
+          "id": "D",
+          "text": "YDUP"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "C"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "reasoning",
+      "category": "analogy",
+      "subcategory": "letter_analogy",
+      "topic": "letter_transformation",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "reasoning",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 1,
+        "questionNumber": 2,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q003",
+      "questionNumber": 3,
+      "page": 1,
+      "question": "Select the letter-cluster from among the given options that can replace the question mark (?) in the following \nseries. \nXZYX, XYXX, XXWX, XWVX, ?",
+      "questionRaw": "Select the letter-cluster from among the given options that can replace the question mark (?) in the following \nseries. \nXZYX, XYXX, XXWX, XWVX, ?",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "XVUX"
+        },
+        {
+          "id": "B",
+          "text": "XTVX"
+        },
+        {
+          "id": "C",
+          "text": "XUVX"
+        },
+        {
+          "id": "D",
+          "text": "XUTX"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "A"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "reasoning",
+      "category": "series",
+      "subcategory": "letter_series",
+      "topic": "letter_cluster",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "reasoning",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 1,
+        "questionNumber": 3,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q004",
+      "questionNumber": 4,
+      "page": 1,
+      "question": "A woman says, “She is my brother’s wife’s sister.” How is the woman related to the speaker?",
+      "questionRaw": "A woman says, “She is my brother’s wife’s sister.” How is the woman related to the speaker?",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sister"
+        },
+        {
+          "id": "B",
+          "text": "Sister-in-law"
+        },
+        {
+          "id": "C",
+          "text": "Cousin"
+        },
+        {
+          "id": "D",
+          "text": "Niece"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "B"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "reasoning",
+      "category": "blood_relation",
+      "subcategory": "family_relation",
+      "topic": "in_laws",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "reasoning",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 1,
+        "questionNumber": 4,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q005",
+      "questionNumber": 5,
+      "page": 1,
+      "question": "Which of the following addresses are identical to each other: \nWhich of the following addresses are identical? \nRohit Sharma, Flat 203, Green Park, Delhi, 110016 \nRohit Sharma, Flat-203, Green Park, Delhi, 110016 \nRohit S., Flat 203, Green Park, Delhi, 110016 \nRohit Sharma, Flat 203, Green Park, Delhi, 110015",
+      "questionRaw": "Which of the following addresses are identical to each other: \nWhich of the following addresses are identical? \nRohit Sharma, Flat 203, Green Park, Delhi, 110016 \nRohit Sharma, Flat-203, Green Park, Delhi, 110016 \nRohit S., Flat 203, Green Park, Delhi, 110016 \nRohit Sharma, Flat 203, Green Park, Delhi, 110015",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "1 & 2"
+        },
+        {
+          "id": "B",
+          "text": "1 & 3"
+        },
+        {
+          "id": "C",
+          "text": "2 & 4"
+        },
+        {
+          "id": "D",
+          "text": "3 & 4"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "A"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "reasoning",
+      "category": "coding_decoding",
+      "subcategory": "address_matching",
+      "topic": "identical_address",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "reasoning",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 1,
+        "questionNumber": 5,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q006",
+      "questionNumber": 6,
+      "page": 1,
+      "question": "P is facing South. Q is seated third to the left of P . Who is seated immediately to the right of Q?",
+      "questionRaw": "P is facing South. Q is seated third to the left of P . Who is seated immediately to the right of Q?",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "P"
+        },
+        {
+          "id": "B",
+          "text": "Person opposite P"
+        },
+        {
+          "id": "C",
+          "text": "Person second to right of P"
+        },
+        {
+          "id": "D",
+          "text": "Cannot be determined"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "D"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "reasoning",
+      "category": "seating_arrangement",
+      "subcategory": "directional_seating",
+      "topic": "left_right",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "reasoning",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 1,
+        "questionNumber": 6,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q007",
+      "questionNumber": 7,
+      "page": 3,
+      "question": "In each of the following questions, a specific pattern such as reversal or rearrangement has been applied to \nthe first word to get the second. Apply the same pattern to the third word and find the correct answer from the \ngiven options. \nETAGIROV : VORIGATE :: GNITSET : ?",
+      "questionRaw": "In each of the following questions, a specific pattern such as reversal or rearrangement has been applied to \nthe first word to get the second. Apply the same pattern to the third word and find the correct answer from the \ngiven options. \nETAGIROV : VORIGATE :: GNITSET : ?",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "TESTING"
+        },
+        {
+          "id": "B",
+          "text": "SETTING"
+        },
+        {
+          "id": "C",
+          "text": "TIGNEST"
+        },
+        {
+          "id": "D",
+          "text": "NETSIGT"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "A"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "reasoning",
+      "category": "coding_decoding",
+      "subcategory": "word_reversal",
+      "topic": "reverse_pattern",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "reasoning",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 3,
+        "questionNumber": 7,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q008",
+      "questionNumber": 8,
+      "page": 3,
+      "question": "Which option is identical to: \nNeha Verma 56, Rose Villa, Sector-9, Jaipur, 302017",
+      "questionRaw": "Which option is identical to: \nNeha Verma 56, Rose Villa, Sector-9, Jaipur, 302017",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "Neha Verma 56, Rose Villa, Sector-9, Jaipur, 302017"
+        },
+        {
+          "id": "B",
+          "text": "Neha Verma 56, Rose Villas, Sector-9, Jaipur, 302017"
+        },
+        {
+          "id": "C",
+          "text": "Neha Verma, 56 Rose Villa, Sector-9, Jaipur, 302018"
+        },
+        {
+          "id": "D",
+          "text": "Neha Verma 65, Rose Villa, Sector-9, Jaipur, 302017"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "A"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "reasoning",
+      "category": "coding_decoding",
+      "subcategory": "address_matching",
+      "topic": "identical_address",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "reasoning",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 3,
+        "questionNumber": 8,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q009",
+      "questionNumber": 9,
+      "page": 3,
+      "question": "Which of the following is the odd one out?",
+      "questionRaw": "Which of the following is the odd one out?",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "6, 10, 14"
+        },
+        {
+          "id": "B",
+          "text": "3, 7, 11"
+        },
+        {
+          "id": "C",
+          "text": "8, 16, 24"
+        },
+        {
+          "id": "D",
+          "text": "9, 13, 17"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "C"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "reasoning",
+      "category": "odd_one_out",
+      "subcategory": "number_pattern",
+      "topic": "sequence",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "reasoning",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 3,
+        "questionNumber": 9,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q010",
+      "questionNumber": 10,
+      "page": 3,
+      "question": "In the following question, select the related word from the given alternatives. \nJoule : Energy :: Newton : ?",
+      "questionRaw": "In the following question, select the related word from the given alternatives. \nJoule : Energy :: Newton : ?",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "Force"
+        },
+        {
+          "id": "B",
+          "text": "Pressure"
+        },
+        {
+          "id": "C",
+          "text": "Work"
+        },
+        {
+          "id": "D",
+          "text": "Power"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "A"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "reasoning",
+      "category": "analogy",
+      "subcategory": "scientific_units",
+      "topic": "unit_relation",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "reasoning",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 3,
+        "questionNumber": 10,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q011",
+      "questionNumber": 11,
+      "page": 3,
+      "question": "If @ = ×, # = -, $ = ÷ and % = +, then evaluate: \n8 @ 3 # 4 % 6 $ 2",
+      "questionRaw": "If @ = ×, # = -, $ = ÷ and % = +, then evaluate: \n8 @ 3 # 4 % 6 $ 2",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "26"
+        },
+        {
+          "id": "B",
+          "text": "23"
+        },
+        {
+          "id": "C",
+          "text": "24"
+        },
+        {
+          "id": "D",
+          "text": "20"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "B"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "reasoning",
+      "category": "operator",
+      "subcategory": "symbol_substitution",
+      "topic": "bodmas",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "reasoning",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 3,
+        "questionNumber": 11,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q012",
+      "questionNumber": 12,
+      "page": 3,
+      "question": "A man said, “The person is my wife’s father’s only son.” How is the person related to the man?",
+      "questionRaw": "A man said, “The person is my wife’s father’s only son.” How is the person related to the man?",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "Brother-in-law"
+        },
+        {
+          "id": "B",
+          "text": "Son"
+        },
+        {
+          "id": "C",
+          "text": "Father"
+        },
+        {
+          "id": "D",
+          "text": "Uncle"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "A"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "reasoning",
+      "category": "blood_relation",
+      "subcategory": "family_relation",
+      "topic": "in_laws",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "reasoning",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 3,
+        "questionNumber": 12,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q013",
+      "questionNumber": 13,
+      "page": 4,
+      "question": "In each of the following questions, a group of three numbers/symbols is given in each option. Identify the \ngroup that does NOT follow the same pattern as the others.",
+      "questionRaw": "In each of the following questions, a group of three numbers/symbols is given in each option. Identify the \ngroup that does NOT follow the same pattern as the others.",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "C3 : E5 : G7"
+        },
+        {
+          "id": "B",
+          "text": "D4 : F6 : H8"
+        },
+        {
+          "id": "C",
+          "text": "E5 : G7 : I9"
+        },
+        {
+          "id": "D",
+          "text": "F6 : H8 : J11"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "D"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "reasoning",
+      "category": "odd_one_out",
+      "subcategory": "alphanumeric_pattern",
+      "topic": "number_symbol",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "reasoning",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 4,
+        "questionNumber": 13,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q014",
+      "questionNumber": 14,
+      "page": 4,
+      "question": "What comes next: \n5, 14, 9, 18, 13, 22, 17, ?",
+      "questionRaw": "What comes next: \n5, 14, 9, 18, 13, 22, 17, ?",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "26"
+        },
+        {
+          "id": "B",
+          "text": "24"
+        },
+        {
+          "id": "C",
+          "text": "21"
+        },
+        {
+          "id": "D",
+          "text": "20"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "A"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "reasoning",
+      "category": "series",
+      "subcategory": "number_series",
+      "topic": "alternating",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "reasoning",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 4,
+        "questionNumber": 14,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q015",
+      "questionNumber": 15,
+      "page": 4,
+      "question": "Find the option that best completes the analogy. \nBF : KL :: DK : ?",
+      "questionRaw": "Find the option that best completes the analogy. \nBF : KL :: DK : ?",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "NO"
+        },
+        {
+          "id": "B",
+          "text": "NP"
+        },
+        {
+          "id": "C",
+          "text": "MQ"
+        },
+        {
+          "id": "D",
+          "text": "MP"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "C"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "reasoning",
+      "category": "analogy",
+      "subcategory": "letter_analogy",
+      "topic": "alphabet_shift",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "reasoning",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 4,
+        "questionNumber": 15,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q016",
+      "questionNumber": 16,
+      "page": 4,
+      "question": "Select the letter-cluster from among the given options that can replace the question mark (?) in the following \nseries. \nACE, DFH, GIK, JLN, ?",
+      "questionRaw": "Select the letter-cluster from among the given options that can replace the question mark (?) in the following \nseries. \nACE, DFH, GIK, JLN, ?",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "NOM"
+        },
+        {
+          "id": "B",
+          "text": "LMN"
+        },
+        {
+          "id": "C",
+          "text": "MOQ"
+        },
+        {
+          "id": "D",
+          "text": "OPQ"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "C"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "reasoning",
+      "category": "series",
+      "subcategory": "letter_series",
+      "topic": "alphabet_progression",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "reasoning",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 4,
+        "questionNumber": 16,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q017",
+      "questionNumber": 17,
+      "page": 4,
+      "question": "In each of the following questions, the first word is coded to form the second word using a specific \nrearrangement and/or substitution rule. Apply the same rule to the third word to determine the correct \ncorresponding word from the given alternatives. \nQWERTY : YTREWQ:: ASDFGH : ?",
+      "questionRaw": "In each of the following questions, the first word is coded to form the second word using a specific \nrearrangement and/or substitution rule. Apply the same rule to the third word to determine the correct \ncorresponding word from the given alternatives. \nQWERTY : YTREWQ:: ASDFGH : ?",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "HGFDAS"
+        },
+        {
+          "id": "B",
+          "text": "GHFDAS"
+        },
+        {
+          "id": "C",
+          "text": "GHFSDA"
+        },
+        {
+          "id": "D",
+          "text": "HGFDSA"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "D"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "reasoning",
+      "category": "coding_decoding",
+      "subcategory": "keyboard_reversal",
+      "topic": "rearrangement",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "reasoning",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 4,
+        "questionNumber": 17,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q018",
+      "questionNumber": 18,
+      "page": 4,
+      "question": "Pointing to a boy, a man said, “He is the son of the only daughter of my mother.” How is the boy related to \nthe man?",
+      "questionRaw": "Pointing to a boy, a man said, “He is the son of the only daughter of my mother.” How is the boy related to \nthe man?",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "Son"
+        },
+        {
+          "id": "B",
+          "text": "Nephew"
+        },
+        {
+          "id": "C",
+          "text": "Cousin"
+        },
+        {
+          "id": "D",
+          "text": "Grandson"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "B"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "reasoning",
+      "category": "blood_relation",
+      "subcategory": "family_relation",
+      "topic": "maternal_side",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "reasoning",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 4,
+        "questionNumber": 18,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q019",
+      "questionNumber": 19,
+      "page": 5,
+      "question": "Select the letter-cluster from among the given options that can replace the question mark (?) in the following \nseries. \nBDHJ, CEIK, DFJL, EGKM, ?",
+      "questionRaw": "Select the letter-cluster from among the given options that can replace the question mark (?) in the following \nseries. \nBDHJ, CEIK, DFJL, EGKM, ?",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "FHLN"
+        },
+        {
+          "id": "B",
+          "text": "GJMN"
+        },
+        {
+          "id": "C",
+          "text": "FILO"
+        },
+        {
+          "id": "D",
+          "text": "GJNO"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "A"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "reasoning",
+      "category": "series",
+      "subcategory": "letter_series",
+      "topic": "letter_cluster",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "reasoning",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 5,
+        "questionNumber": 19,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q020",
+      "questionNumber": 20,
+      "page": 5,
+      "question": "Select the letter-cluster from among the given options that can replace the question mark (?) in the following \nseries. \nDHL, HLP , LPT , PTX, ?",
+      "questionRaw": "Select the letter-cluster from among the given options that can replace the question mark (?) in the following \nseries. \nDHL, HLP , LPT , PTX, ?",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "TXB"
+        },
+        {
+          "id": "B",
+          "text": "TXZ"
+        },
+        {
+          "id": "C",
+          "text": "TYZ"
+        },
+        {
+          "id": "D",
+          "text": "TYA"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "A"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "reasoning",
+      "category": "series",
+      "subcategory": "letter_series",
+      "topic": "letter_cluster",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "reasoning",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 5,
+        "questionNumber": 20,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q021",
+      "questionNumber": 21,
+      "page": 5,
+      "question": "Select the letter-cluster from among the given options that can replace the question mark (?) in the following \nseries. \nCFI, HJL, MNO, RRR, ?",
+      "questionRaw": "Select the letter-cluster from among the given options that can replace the question mark (?) in the following \nseries. \nCFI, HJL, MNO, RRR, ?",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "WVU"
+        },
+        {
+          "id": "B",
+          "text": "WUY"
+        },
+        {
+          "id": "C",
+          "text": "WVZ"
+        },
+        {
+          "id": "D",
+          "text": "WTY"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "A"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "reasoning",
+      "category": "series",
+      "subcategory": "letter_series",
+      "topic": "letter_cluster",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "reasoning",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 5,
+        "questionNumber": 21,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q022",
+      "questionNumber": 22,
+      "page": 5,
+      "question": "In each of the following questions, a group of three numbers/symbols is given in each option. Identify the \ngroup that does NOT follow the same pattern as the others.",
+      "questionRaw": "In each of the following questions, a group of three numbers/symbols is given in each option. Identify the \ngroup that does NOT follow the same pattern as the others.",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "J10 : H8 : F6"
+        },
+        {
+          "id": "B",
+          "text": "M13 : K11 : I9"
+        },
+        {
+          "id": "C",
+          "text": "P16 : N14 : L12"
+        },
+        {
+          "id": "D",
+          "text": "Q17 : O15 : L12"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "D"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "reasoning",
+      "category": "odd_one_out",
+      "subcategory": "alphanumeric_pattern",
+      "topic": "number_symbol",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "reasoning",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 5,
+        "questionNumber": 22,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q023",
+      "questionNumber": 23,
+      "page": 5,
+      "question": "In the following question, select the related word from the given alternatives. \nNile : Africa :: Danube : ?",
+      "questionRaw": "In the following question, select the related word from the given alternatives. \nNile : Africa :: Danube : ?",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "Asia"
+        },
+        {
+          "id": "B",
+          "text": "Europe"
+        },
+        {
+          "id": "C",
+          "text": "Australia"
+        },
+        {
+          "id": "D",
+          "text": "America"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "B"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "reasoning",
+      "category": "analogy",
+      "subcategory": "geography",
+      "topic": "river_continent",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "reasoning",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 5,
+        "questionNumber": 23,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q024",
+      "questionNumber": 24,
+      "page": 6,
+      "question": "Identify the odd one: \n3, 5, 7, 11, 13, 17, 19, 21",
+      "questionRaw": "Identify the odd one: \n3, 5, 7, 11, 13, 17, 19, 21",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "21"
+        },
+        {
+          "id": "B",
+          "text": "13"
+        },
+        {
+          "id": "C",
+          "text": "11"
+        },
+        {
+          "id": "D",
+          "text": "19"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "A"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "reasoning",
+      "category": "odd_one_out",
+      "subcategory": "prime_numbers",
+      "topic": "number_classification",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "reasoning",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 6,
+        "questionNumber": 24,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q025",
+      "questionNumber": 25,
+      "page": 6,
+      "question": "Letters of the word TEACHING are arranged alphabetically. How many letters are between the 3rd from left \nand 2nd from right?",
+      "questionRaw": "Letters of the word TEACHING are arranged alphabetically. How many letters are between the 3rd from left \nand 2nd from right?",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "5"
+        },
+        {
+          "id": "B",
+          "text": "4"
+        },
+        {
+          "id": "C",
+          "text": "3"
+        },
+        {
+          "id": "D",
+          "text": "6"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "C"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "reasoning",
+      "category": "alphabet",
+      "subcategory": "letter_position",
+      "topic": "alphabetical_order",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "reasoning",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 6,
+        "questionNumber": 25,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q026",
+      "questionNumber": 26,
+      "page": 6,
+      "question": "Which Article of the Indian Constitution was amended by the 106th Amendment Act to provide 1/3rd \nreservation for women?",
+      "questionRaw": "Which Article of the Indian Constitution was amended by the 106th Amendment Act to provide 1/3rd \nreservation for women?",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "Article 239AA"
+        },
+        {
+          "id": "B",
+          "text": "Article 330A"
+        },
+        {
+          "id": "C",
+          "text": "Article 332A"
+        },
+        {
+          "id": "D",
+          "text": "All of the above"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "D"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "gk",
+      "category": "polity",
+      "subcategory": "constitution",
+      "topic": "106th_amendment",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "gk",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 6,
+        "questionNumber": 26,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q027",
+      "questionNumber": 27,
+      "page": 6,
+      "question": "Under the Indus Waters Treaty (1960), India has unrestricted rights over which set of rivers?",
+      "questionRaw": "Under the Indus Waters Treaty (1960), India has unrestricted rights over which set of rivers?",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "Indus, Jhelum, Chenab"
+        },
+        {
+          "id": "B",
+          "text": "Ravi, Beas, Satluj"
+        },
+        {
+          "id": "C",
+          "text": "Jhelum, Chenab, Ravi"
+        },
+        {
+          "id": "D",
+          "text": "Indus, Beas, Satluj"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "B"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "gk",
+      "category": "geography",
+      "subcategory": "rivers",
+      "topic": "indus_waters_treaty",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "gk",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 6,
+        "questionNumber": 27,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q028",
+      "questionNumber": 28,
+      "page": 6,
+      "question": "What is the name of the world’s longest expressway tunnel recently opened by China in the Xinjiang Uygur \nAutonomous Region?",
+      "questionRaw": "What is the name of the world’s longest expressway tunnel recently opened by China in the Xinjiang Uygur \nAutonomous Region?",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "Karakoram Mega Tunnel"
+        },
+        {
+          "id": "B",
+          "text": "Pamir Victory Tunnel"
+        },
+        {
+          "id": "C",
+          "text": "Tianshan Shengli Tunnel"
+        },
+        {
+          "id": "D",
+          "text": "Silk Route Express Tunnel"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "C"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "gk",
+      "category": "current_affairs",
+      "subcategory": "infrastructure",
+      "topic": "tunnel",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "gk",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 6,
+        "questionNumber": 28,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q029",
+      "questionNumber": 29,
+      "page": 6,
+      "question": "By which year does Indian Railways plan to double originating train capacity in 48 major cities?",
+      "questionRaw": "By which year does Indian Railways plan to double originating train capacity in 48 major cities?",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "2027"
+        },
+        {
+          "id": "B",
+          "text": "2028"
+        },
+        {
+          "id": "C",
+          "text": "2030"
+        },
+        {
+          "id": "D",
+          "text": "2035"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "C"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "gk",
+      "category": "current_affairs",
+      "subcategory": "railways",
+      "topic": "capacity_plan",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "gk",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 6,
+        "questionNumber": 29,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q030",
+      "questionNumber": 30,
+      "page": 7,
+      "question": "Which of the following Harappan sites is known for a unique water harnessing system and storm -water \ndrainage?",
+      "questionRaw": "Which of the following Harappan sites is known for a unique water harnessing system and storm -water \ndrainage?",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "Lothal"
+        },
+        {
+          "id": "B",
+          "text": "Dholavira"
+        },
+        {
+          "id": "C",
+          "text": "Kalibangan"
+        },
+        {
+          "id": "D",
+          "text": "Banawali"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "B"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "gk",
+      "category": "history",
+      "subcategory": "harappan_civilization",
+      "topic": "dholavira",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "gk",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 7,
+        "questionNumber": 30,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q031",
+      "questionNumber": 31,
+      "page": 7,
+      "question": "The PM-PRANAM scheme aims to:",
+      "questionRaw": "The PM-PRANAM scheme aims to:",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "Promote religious tourism"
+        },
+        {
+          "id": "B",
+          "text": "Reduce the use of chemical fertilizers by promoting alternatives"
+        },
+        {
+          "id": "C",
+          "text": "Provide pension to small shopkeepers"
+        },
+        {
+          "id": "D",
+          "text": "Digitalize land records"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "B"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "gk",
+      "category": "government_scheme",
+      "subcategory": "agriculture",
+      "topic": "pm_pranam",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "gk",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 7,
+        "questionNumber": 31,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q032",
+      "questionNumber": 32,
+      "page": 7,
+      "question": "The Battle of Wandiwash (1760) was fought between:",
+      "questionRaw": "The Battle of Wandiwash (1760) was fought between:",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "British and French"
+        },
+        {
+          "id": "B",
+          "text": "British and Marathas"
+        },
+        {
+          "id": "C",
+          "text": "French and Dutch"
+        },
+        {
+          "id": "D",
+          "text": "British and Tipu Sultan"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "A"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "gk",
+      "category": "history",
+      "subcategory": "modern_india",
+      "topic": "wandiwash",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "gk",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 7,
+        "questionNumber": 32,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q033",
+      "questionNumber": 33,
+      "page": 7,
+      "question": "In Quantum Computing, the basic unit of information that can exist in multiple states simultaneously is \ncalled:",
+      "questionRaw": "In Quantum Computing, the basic unit of information that can exist in multiple states simultaneously is \ncalled:",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "Bit"
+        },
+        {
+          "id": "B",
+          "text": "Qubit"
+        },
+        {
+          "id": "C",
+          "text": "Logic Gate"
+        },
+        {
+          "id": "D",
+          "text": "Transistor"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "B"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "gk",
+      "category": "science",
+      "subcategory": "quantum_computing",
+      "topic": "qubit",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "gk",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 7,
+        "questionNumber": 33,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q034",
+      "questionNumber": 34,
+      "page": 7,
+      "question": "Under the Bharatiya Nyaya Sanhita (BNS), the crime of ‘Sedition’ has been replaced by:",
+      "questionRaw": "Under the Bharatiya Nyaya Sanhita (BNS), the crime of ‘Sedition’ has been replaced by:",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "Section 150 (Acts endangering sovereignty, unity and integrity of India)"
+        },
+        {
+          "id": "B",
+          "text": "Section 302"
+        },
+        {
+          "id": "C",
+          "text": "Section 377"
+        },
+        {
+          "id": "D",
+          "text": "Section 420"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "A"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "gk",
+      "category": "polity",
+      "subcategory": "bns",
+      "topic": "sedition",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "gk",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 7,
+        "questionNumber": 34,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q035",
+      "questionNumber": 35,
+      "page": 7,
+      "question": "The ‘Curzon Line’ is the boundary between:",
+      "questionRaw": "The ‘Curzon Line’ is the boundary between:",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "India and Pakistan"
+        },
+        {
+          "id": "B",
+          "text": "Poland and Russia"
+        },
+        {
+          "id": "C",
+          "text": "North and South Korea"
+        },
+        {
+          "id": "D",
+          "text": "USA and Canada"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "B"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "gk",
+      "category": "geography",
+      "subcategory": "international_boundary",
+      "topic": "curzon_line",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "gk",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 7,
+        "questionNumber": 35,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q036",
+      "questionNumber": 36,
+      "page": 7,
+      "question": "Armenia has unveiled a butterfly-based logo for COP17 featuring which endemic species?",
+      "questionRaw": "Armenia has unveiled a butterfly-based logo for COP17 featuring which endemic species?",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "Monarch Butterfly"
+        },
+        {
+          "id": "B",
+          "text": "Apollo Butterfly"
+        },
+        {
+          "id": "C",
+          "text": "Erivan Anomalous Blue"
+        },
+        {
+          "id": "D",
+          "text": "Swallowtail Butterfly"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "C"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "gk",
+      "category": "current_affairs",
+      "subcategory": "environment",
+      "topic": "cop17",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "gk",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 7,
+        "questionNumber": 36,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q037",
+      "questionNumber": 37,
+      "page": 8,
+      "question": "Who was the first Viceroy of India?",
+      "questionRaw": "Who was the first Viceroy of India?",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "Lord Warren Hastings"
+        },
+        {
+          "id": "B",
+          "text": "Lord Canning"
+        },
+        {
+          "id": "C",
+          "text": "Lord Mountbatten"
+        },
+        {
+          "id": "D",
+          "text": "Lord Dalhousie"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "B"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "gk",
+      "category": "history",
+      "subcategory": "modern_india",
+      "topic": "viceroy",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "gk",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 8,
+        "questionNumber": 37,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q038",
+      "questionNumber": 38,
+      "page": 8,
+      "question": "Mitochondria are known as the powerhouse of the cell because they produce:",
+      "questionRaw": "Mitochondria are known as the powerhouse of the cell because they produce:",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "DNA"
+        },
+        {
+          "id": "B",
+          "text": "ATP"
+        },
+        {
+          "id": "C",
+          "text": "RNA"
+        },
+        {
+          "id": "D",
+          "text": "Glucose"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "B"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "gk",
+      "category": "science",
+      "subcategory": "biology",
+      "topic": "mitochondria",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "gk",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 8,
+        "questionNumber": 38,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q039",
+      "questionNumber": 39,
+      "page": 8,
+      "question": "The Pitt’s India Act of 1784 was significant because it:",
+      "questionRaw": "The Pitt’s India Act of 1784 was significant because it:",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "Established the Supreme Court in Calcutta."
+        },
+        {
+          "id": "B",
+          "text": "Distinguished between the commercial and political functions of the Company."
+        },
+        {
+          "id": "C",
+          "text": "Ended the Company's monopoly over tea trade."
+        },
+        {
+          "id": "D",
+          "text": "Introduced the Portfolio system."
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "B"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "gk",
+      "category": "history",
+      "subcategory": "modern_india",
+      "topic": "pitts_india_act",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "gk",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 8,
+        "questionNumber": 39,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q040",
+      "questionNumber": 40,
+      "page": 8,
+      "question": "The ‘Ramsar Convention’ is related to the conservation of:",
+      "questionRaw": "The ‘Ramsar Convention’ is related to the conservation of:",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tigers"
+        },
+        {
+          "id": "B",
+          "text": "Wetlands"
+        },
+        {
+          "id": "C",
+          "text": "Coral reefs"
+        },
+        {
+          "id": "D",
+          "text": "Elephants"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "B"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "gk",
+      "category": "environment",
+      "subcategory": "wetlands",
+      "topic": "ramsar",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "gk",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 8,
+        "questionNumber": 40,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q041",
+      "questionNumber": 41,
+      "page": 8,
+      "question": "Who is the author of the famous book “Hind Swaraj”?",
+      "questionRaw": "Who is the author of the famous book “Hind Swaraj”?",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "Bal Gangadhar Tilak"
+        },
+        {
+          "id": "B",
+          "text": "Mahatma Gandhi"
+        },
+        {
+          "id": "C",
+          "text": "Jawaharlal Nehru"
+        },
+        {
+          "id": "D",
+          "text": "Sardar Patel"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "B"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "gk",
+      "category": "history",
+      "subcategory": "freedom_movement",
+      "topic": "hind_swaraj",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "gk",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 8,
+        "questionNumber": 41,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q042",
+      "questionNumber": 42,
+      "page": 8,
+      "question": "Which instrument is used to measure atmospheric pressure?",
+      "questionRaw": "Which instrument is used to measure atmospheric pressure?",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hygrometer"
+        },
+        {
+          "id": "B",
+          "text": "Barometer"
+        },
+        {
+          "id": "C",
+          "text": "Ammeter"
+        },
+        {
+          "id": "D",
+          "text": "Altimeter"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "B"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "gk",
+      "category": "science",
+      "subcategory": "physics",
+      "topic": "barometer",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "gk",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 8,
+        "questionNumber": 42,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q043",
+      "questionNumber": 43,
+      "page": 8,
+      "question": "Which gland is often referred to as the ‘Master Gland’ of the human body?",
+      "questionRaw": "Which gland is often referred to as the ‘Master Gland’ of the human body?",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "Thyroid"
+        },
+        {
+          "id": "B",
+          "text": "Adrenal"
+        },
+        {
+          "id": "C",
+          "text": "Pituitary"
+        },
+        {
+          "id": "D",
+          "text": "Pancreas"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "C"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "gk",
+      "category": "science",
+      "subcategory": "biology",
+      "topic": "pituitary",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "gk",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 8,
+        "questionNumber": 43,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q044",
+      "questionNumber": 44,
+      "page": 9,
+      "question": "Which type of volcanic eruption is characterized by the most explosive activity and high-viscosity lava?",
+      "questionRaw": "Which type of volcanic eruption is characterized by the most explosive activity and high-viscosity lava?",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "Hawaiian"
+        },
+        {
+          "id": "B",
+          "text": "Strombolian"
+        },
+        {
+          "id": "C",
+          "text": "Plinian"
+        },
+        {
+          "id": "D",
+          "text": "Icelandic"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "C"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "gk",
+      "category": "geography",
+      "subcategory": "volcano",
+      "topic": "plinian",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "gk",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 9,
+        "questionNumber": 44,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q045",
+      "questionNumber": 45,
+      "page": 9,
+      "question": "The process of ‘Nitrification’ in the nitrogen cycle involves:",
+      "questionRaw": "The process of ‘Nitrification’ in the nitrogen cycle involves:",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "Conversion of nitrogen gas to ammonia"
+        },
+        {
+          "id": "B",
+          "text": "Conversion of ammonia to nitrites and then nitrates"
+        },
+        {
+          "id": "C",
+          "text": "Release of nitrogen back into the atmosphere"
+        },
+        {
+          "id": "D",
+          "text": "Absorption of nitrogen by animals"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "B"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "gk",
+      "category": "science",
+      "subcategory": "biology",
+      "topic": "nitrification",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "gk",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 9,
+        "questionNumber": 45,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q046",
+      "questionNumber": 46,
+      "page": 9,
+      "question": "Assertion (A): In the Demographic Transition Model, India is currently in the late third stage. \nReason (R): Birth rates are falling significantly while death rates have already stabilized at a low level.**",
+      "questionRaw": "Assertion (A): In the Demographic Transition Model, India is currently in the late third stage. \nReason (R): Birth rates are falling significantly while death rates have already stabilized at a low level.**",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "Both A and R are true, and R is the correct explanation of A."
+        },
+        {
+          "id": "B",
+          "text": "Both A and R are true, but R is not the correct explanation of A."
+        },
+        {
+          "id": "C",
+          "text": "A is true, but R is false."
+        },
+        {
+          "id": "D",
+          "text": "A is false, but R is true."
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "A"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "gk",
+      "category": "geography",
+      "subcategory": "population",
+      "topic": "dtm",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "gk",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 9,
+        "questionNumber": 46,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q047",
+      "questionNumber": 47,
+      "page": 9,
+      "question": "The value of ‘g’ (acceleration due to gravity) is minimum at:",
+      "questionRaw": "The value of ‘g’ (acceleration due to gravity) is minimum at:",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "The Equator"
+        },
+        {
+          "id": "B",
+          "text": "The North Pole"
+        },
+        {
+          "id": "C",
+          "text": "The South Pole"
+        },
+        {
+          "id": "D",
+          "text": "The center of the Earth"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "D"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "gk",
+      "category": "science",
+      "subcategory": "physics",
+      "topic": "gravity",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "gk",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 9,
+        "questionNumber": 47,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q048",
+      "questionNumber": 48,
+      "page": 9,
+      "question": "Which river is known as the “Sorrow of Bihar”?",
+      "questionRaw": "Which river is known as the “Sorrow of Bihar”?",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "Gandak"
+        },
+        {
+          "id": "B",
+          "text": "Kosi"
+        },
+        {
+          "id": "C",
+          "text": "Son"
+        },
+        {
+          "id": "D",
+          "text": "Ghaghara"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "B"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "gk",
+      "category": "geography",
+      "subcategory": "rivers",
+      "topic": "kosi",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "gk",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 9,
+        "questionNumber": 48,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q049",
+      "questionNumber": 49,
+      "page": 9,
+      "question": "Which layer of the atmosphere contains Ozone Layer?",
+      "questionRaw": "Which layer of the atmosphere contains Ozone Layer?",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "Troposphere"
+        },
+        {
+          "id": "B",
+          "text": "Stratosphere"
+        },
+        {
+          "id": "C",
+          "text": "Mesosphere"
+        },
+        {
+          "id": "D",
+          "text": "Thermosphere"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "B"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "gk",
+      "category": "geography",
+      "subcategory": "atmosphere",
+      "topic": "ozone",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "gk",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 9,
+        "questionNumber": 49,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q050",
+      "questionNumber": 50,
+      "page": 9,
+      "question": "The Eighth Schedule of the Indian Constitution originally contained how many languages?",
+      "questionRaw": "The Eighth Schedule of the Indian Constitution originally contained how many languages?",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "14"
+        },
+        {
+          "id": "B",
+          "text": "18"
+        },
+        {
+          "id": "C",
+          "text": "22"
+        },
+        {
+          "id": "D",
+          "text": "15"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "A"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "gk",
+      "category": "polity",
+      "subcategory": "constitution",
+      "topic": "eighth_schedule",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "gk",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 9,
+        "questionNumber": 50,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q051",
+      "questionNumber": 51,
+      "page": 10,
+      "question": "P and Q start a business. P invests ₹90,000 for 8 months, Q invests ₹1,50,000 for 5 months. What is Q's share \nof a ₹50,000 profit(approximate)?",
+      "questionRaw": "P and Q start a business. P invests ₹90,000 for 8 months, Q invests ₹1,50,000 for 5 months. What is Q's share \nof a ₹50,000 profit(approximate)?",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "₹20,000"
+        },
+        {
+          "id": "B",
+          "text": "₹32,000"
+        },
+        {
+          "id": "C",
+          "text": "₹35,000"
+        },
+        {
+          "id": "D",
+          "text": "₹25,510"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "D"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "aptitude",
+      "category": "partnership",
+      "subcategory": "profit_share",
+      "topic": "investment_ratio",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "aptitude",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 10,
+        "questionNumber": 51,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q052",
+      "questionNumber": 52,
+      "page": 10,
+      "question": "Rajesh started a business by investing ₹1,00,000. After 5 months, Suresh joined with ₹1,50,000. At the end \nof 7 months from the start, Tushar joined with ₹2,00,000. If the total profit is ₹1,50,000 at the end of the year, \nfind the share of Tushar(approximate) .",
+      "questionRaw": "Rajesh started a business by investing ₹1,00,000. After 5 months, Suresh joined with ₹1,50,000. At the end \nof 7 months from the start, Tushar joined with ₹2,00,000. If the total profit is ₹1,50,000 at the end of the year, \nfind the share of Tushar(approximate) .",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "₹55,000"
+        },
+        {
+          "id": "B",
+          "text": "₹46,154"
+        },
+        {
+          "id": "C",
+          "text": "₹45,250"
+        },
+        {
+          "id": "D",
+          "text": "₹35,500"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "B"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "aptitude",
+      "category": "partnership",
+      "subcategory": "profit_share",
+      "topic": "variable_investment",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "aptitude",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 10,
+        "questionNumber": 52,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q053",
+      "questionNumber": 53,
+      "page": 10,
+      "question": "What is the average of all integers between 150 and 300 that are exactly divisible by 13?",
+      "questionRaw": "What is the average of all integers between 150 and 300 that are exactly divisible by 13?",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "220"
+        },
+        {
+          "id": "B",
+          "text": "227.5"
+        },
+        {
+          "id": "C",
+          "text": "230"
+        },
+        {
+          "id": "D",
+          "text": "235.5"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "B"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "aptitude",
+      "category": "average",
+      "subcategory": "divisibility_average",
+      "topic": "multiples",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "aptitude",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 10,
+        "questionNumber": 53,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q054",
+      "questionNumber": 54,
+      "page": 10,
+      "question": "The average of 12 numbers is 75. The average of the first 5 numbers is 68. The average of the next 5 numbers \nis 20% more than the average of the first 5 numbers. The 11th number is 12 more than the 12th number. What is \nthe average of the 11th and 12th numbers?",
+      "questionRaw": "The average of 12 numbers is 75. The average of the first 5 numbers is 68. The average of the next 5 numbers \nis 20% more than the average of the first 5 numbers. The 11th number is 12 more than the 12th number. What is \nthe average of the 11th and 12th numbers?",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "72.5"
+        },
+        {
+          "id": "B",
+          "text": "76"
+        },
+        {
+          "id": "C",
+          "text": "82.3"
+        },
+        {
+          "id": "D",
+          "text": "88"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "B"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "aptitude",
+      "category": "average",
+      "subcategory": "weighted_average",
+      "topic": "group_average",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "aptitude",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 10,
+        "questionNumber": 54,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q055",
+      "questionNumber": 55,
+      "page": 10,
+      "question": "A landlord bought a property for ₹12,00,000. He wants to earn a 10% annual return on his investment after \npaying ₹2,500 per month for maintenance. What should be the monthly rent he charges?",
+      "questionRaw": "A landlord bought a property for ₹12,00,000. He wants to earn a 10% annual return on his investment after \npaying ₹2,500 per month for maintenance. What should be the monthly rent he charges?",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "₹9,500"
+        },
+        {
+          "id": "B",
+          "text": "₹10,000"
+        },
+        {
+          "id": "C",
+          "text": "₹12,500"
+        },
+        {
+          "id": "D",
+          "text": "₹11,000"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "C"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "aptitude",
+      "category": "profit_and_loss",
+      "subcategory": "rental_return",
+      "topic": "annual_yield",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "aptitude",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 10,
+        "questionNumber": 55,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q056",
+      "questionNumber": 56,
+      "page": 10,
+      "question": "From a sample of 250 data scientists, determine the ratio of those proficient in Python to those proficient \nin R. \nCategory Number of Data Scientists \nProficient in Python and R 50 \nProficient in Python only 80 \nProficient in R only 70 \nProficient in neither language 50 \nTotal Sample Size 250",
+      "questionRaw": "From a sample of 250 data scientists, determine the ratio of those proficient in Python to those proficient \nin R. \nCategory Number of Data Scientists \nProficient in Python and R 50 \nProficient in Python only 80 \nProficient in R only 70 \nProficient in neither language 50 \nTotal Sample Size 250",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "13:12"
+        },
+        {
+          "id": "B",
+          "text": "12:13"
+        },
+        {
+          "id": "C",
+          "text": "8:7"
+        },
+        {
+          "id": "D",
+          "text": "7:8"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "A"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "aptitude",
+      "category": "data_interpretation",
+      "subcategory": "venn_ratio",
+      "topic": "python_r",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "aptitude",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 10,
+        "questionNumber": 56,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q057",
+      "questionNumber": 57,
+      "page": 11,
+      "question": "Arrange the fractions 7/11, 5/9, 4/7, and 3/5 in ascending order.",
+      "questionRaw": "Arrange the fractions 7/11, 5/9, 4/7, and 3/5 in ascending order.",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "3/5, 4/7, 5/9, 7/11"
+        },
+        {
+          "id": "B",
+          "text": "5/9, 4/7, 3/5, 7/11"
+        },
+        {
+          "id": "C",
+          "text": "3/5, 5/9, 4/7, 7/11"
+        },
+        {
+          "id": "D",
+          "text": "4/7, 5/9, 7/11, 3/5"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "B"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "aptitude",
+      "category": "fractions",
+      "subcategory": "ordering",
+      "topic": "ascending",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "aptitude",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 11,
+        "questionNumber": 57,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q058",
+      "questionNumber": 58,
+      "page": 11,
+      "question": "Evaluate: \n8\n1\n3 −[\n7\n9 ÷{\n2\n5−(\n1\n3 ×(5\n6−\n1\n6))}]",
+      "questionRaw": "Evaluate: \n8\n1\n3 −[\n7\n9 ÷{\n2\n5−(\n1\n3 ×(5\n6−\n1\n6))}]",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "-41/15"
+        },
+        {
+          "id": "B",
+          "text": "45/23"
+        },
+        {
+          "id": "C",
+          "text": "95/24"
+        },
+        {
+          "id": "D",
+          "text": "32/3"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "C"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "aptitude",
+      "category": "simplification",
+      "subcategory": "fraction_expression",
+      "topic": "bodmas",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "aptitude",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 11,
+        "questionNumber": 58,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q059",
+      "questionNumber": 59,
+      "page": 11,
+      "question": "32³ + 19³ - 38³ + 312 is equal to:",
+      "questionRaw": "32³ + 19³ - 38³ + 312 is equal to:",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "-38520"
+        },
+        {
+          "id": "B",
+          "text": "-26840"
+        },
+        {
+          "id": "C",
+          "text": "-14933"
+        },
+        {
+          "id": "D",
+          "text": "-52100"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "C"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "aptitude",
+      "category": "algebra",
+      "subcategory": "cubes",
+      "topic": "identity",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "aptitude",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 11,
+        "questionNumber": 59,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q060",
+      "questionNumber": 60,
+      "page": 11,
+      "question": "An amount is said to triple in 6 years with compound interest. How many years will it take for the amount \nto grow to 27 times its original value?",
+      "questionRaw": "An amount is said to triple in 6 years with compound interest. How many years will it take for the amount \nto grow to 27 times its original value?",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "18"
+        },
+        {
+          "id": "B",
+          "text": "19"
+        },
+        {
+          "id": "C",
+          "text": "20"
+        },
+        {
+          "id": "D",
+          "text": "21"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "A"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "aptitude",
+      "category": "compound_interest",
+      "subcategory": "growth_factor",
+      "topic": "tripling",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "aptitude",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 11,
+        "questionNumber": 60,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q061",
+      "questionNumber": 61,
+      "page": 11,
+      "question": "A company produced 1500 units at a total cost of ₹1,20,000. It donated 300 units to an NGO. For the rest, it \nannounced a 15% discount on the market price of ₹110 per unit. It also offered 3 units free for every 10 units \npurchased. If all 1500 units were distributed, what is the overall gain or loss percentage?",
+      "questionRaw": "A company produced 1500 units at a total cost of ₹1,20,000. It donated 300 units to an NGO. For the rest, it \nannounced a 15% discount on the market price of ₹110 per unit. It also offered 3 units free for every 10 units \npurchased. If all 1500 units were distributed, what is the overall gain or loss percentage?",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "25% loss"
+        },
+        {
+          "id": "B",
+          "text": "15% profit"
+        },
+        {
+          "id": "C",
+          "text": "28.08% loss"
+        },
+        {
+          "id": "D",
+          "text": "36.6% profit"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "C"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "aptitude",
+      "category": "profit_and_loss",
+      "subcategory": "discount_free_goods",
+      "topic": "overall_gain_loss",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "aptitude",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 11,
+        "questionNumber": 61,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q062",
+      "questionNumber": 62,
+      "page": 11,
+      "question": "A 50-litre mixture contains juice and water in the ratio 3:2. How much water (in litres) must be added to \nthis mixture to change the ratio of juice to water to 3:4?",
+      "questionRaw": "A 50-litre mixture contains juice and water in the ratio 3:2. How much water (in litres) must be added to \nthis mixture to change the ratio of juice to water to 3:4?",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "12 litres"
+        },
+        {
+          "id": "B",
+          "text": "15 litres"
+        },
+        {
+          "id": "C",
+          "text": "18 litres"
+        },
+        {
+          "id": "D",
+          "text": "20 litres"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "D"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "aptitude",
+      "category": "ratio",
+      "subcategory": "mixture",
+      "topic": "water_addition",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "aptitude",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 11,
+        "questionNumber": 62,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q063",
+      "questionNumber": 63,
+      "page": 12,
+      "question": "Priya purchased 30 litres of honey at ₹50 per litre. She also purchased 20 litres of honey at ₹55 per litre. \nShe combined both quantities and then sold the entire mixture at ₹54 per litre. What was her total profit or loss?",
+      "questionRaw": "Priya purchased 30 litres of honey at ₹50 per litre. She also purchased 20 litres of honey at ₹55 per litre. \nShe combined both quantities and then sold the entire mixture at ₹54 per litre. What was her total profit or loss?",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "Loss of ₹60"
+        },
+        {
+          "id": "B",
+          "text": "Profit of ₹100"
+        },
+        {
+          "id": "C",
+          "text": "Profit of ₹120"
+        },
+        {
+          "id": "D",
+          "text": "Loss of ₹120"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "B"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "aptitude",
+      "category": "profit_and_loss",
+      "subcategory": "weighted_average",
+      "topic": "honey",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "aptitude",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 12,
+        "questionNumber": 63,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q064",
+      "questionNumber": 64,
+      "page": 12,
+      "question": "A sum becomes ₹7,200 in 2 years and ₹8,640 in 3 years at compound interest. What is the original principal?",
+      "questionRaw": "A sum becomes ₹7,200 in 2 years and ₹8,640 in 3 years at compound interest. What is the original principal?",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "₹4,800"
+        },
+        {
+          "id": "B",
+          "text": "₹5,000"
+        },
+        {
+          "id": "C",
+          "text": "₹5,200"
+        },
+        {
+          "id": "D",
+          "text": "₹5,500"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "B"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "aptitude",
+      "category": "compound_interest",
+      "subcategory": "principal",
+      "topic": "reverse_ci",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "aptitude",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 12,
+        "questionNumber": 64,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q065",
+      "questionNumber": 65,
+      "page": 12,
+      "question": "An express train covers a fixed distance in 40 minutes at an average speed of 200 km/h. Due to construction \nwork, it needs to be diverted, increasing the distance by 25%. If the train needs to arrive at its destination on time \n(in 40 minutes), what should its new average speed be in km/h?",
+      "questionRaw": "An express train covers a fixed distance in 40 minutes at an average speed of 200 km/h. Due to construction \nwork, it needs to be diverted, increasing the distance by 25%. If the train needs to arrive at its destination on time \n(in 40 minutes), what should its new average speed be in km/h?",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "250 km/h"
+        },
+        {
+          "id": "B",
+          "text": "260 km/h"
+        },
+        {
+          "id": "C",
+          "text": "270 km/h"
+        },
+        {
+          "id": "D",
+          "text": "280 km/h"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "A"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "aptitude",
+      "category": "speed_time_distance",
+      "subcategory": "train_speed",
+      "topic": "same_time",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "aptitude",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 12,
+        "questionNumber": 65,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q066",
+      "questionNumber": 66,
+      "page": 12,
+      "question": "A circular garden having a radius of 28 cm. If 80% of it is cultivated, what is the area of garden remaining \nuncultivated?",
+      "questionRaw": "A circular garden having a radius of 28 cm. If 80% of it is cultivated, what is the area of garden remaining \nuncultivated?",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "193.6 cm²"
+        },
+        {
+          "id": "B",
+          "text": "246.4 cm²"
+        },
+        {
+          "id": "C",
+          "text": "492.8 cm²"
+        },
+        {
+          "id": "D",
+          "text": "615.4 cm²"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "C"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "aptitude",
+      "category": "mensuration",
+      "subcategory": "circle_area",
+      "topic": "remaining_area",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "aptitude",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 12,
+        "questionNumber": 66,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q067",
+      "questionNumber": 67,
+      "page": 12,
+      "question": "Two motorcycles, M and N, start from points 480 km apart. They travel at constant speeds. If they move \ntowards each other, they meet in 5 hours. If they move in the same direction, they meet in 15 hours. What is the \nspeed of motorcycle M? (Assume M is the faster motorcycle)",
+      "questionRaw": "Two motorcycles, M and N, start from points 480 km apart. They travel at constant speeds. If they move \ntowards each other, they meet in 5 hours. If they move in the same direction, they meet in 15 hours. What is the \nspeed of motorcycle M? (Assume M is the faster motorcycle)",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "55 km/h"
+        },
+        {
+          "id": "B",
+          "text": "64 km/h"
+        },
+        {
+          "id": "C",
+          "text": "70 km/h"
+        },
+        {
+          "id": "D",
+          "text": "80 km/h"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "B"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "aptitude",
+      "category": "speed_time_distance",
+      "subcategory": "relative_speed",
+      "topic": "meetings",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "aptitude",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 12,
+        "questionNumber": 67,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q068",
+      "questionNumber": 68,
+      "page": 12,
+      "question": "Two spices priced at ₹80 per kg and ₹160 per kg are blended. They are sold at ₹140 per kg, achieving a \nprofit margin of 25%. What is the ratio of the two spices in the mixture?",
+      "questionRaw": "Two spices priced at ₹80 per kg and ₹160 per kg are blended. They are sold at ₹140 per kg, achieving a \nprofit margin of 25%. What is the ratio of the two spices in the mixture?",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "3:2"
+        },
+        {
+          "id": "B",
+          "text": "2:1"
+        },
+        {
+          "id": "C",
+          "text": "1:2"
+        },
+        {
+          "id": "D",
+          "text": "3:1"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "A"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "aptitude",
+      "category": "alligation",
+      "subcategory": "mixture_ratio",
+      "topic": "spices",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "aptitude",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 12,
+        "questionNumber": 68,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q069",
+      "questionNumber": 69,
+      "page": 13,
+      "question": "X is able to complete a task in 12 days, while Y takes 18 days to finish the same task. If they collaborate and \nwork together for 3 days, what fraction of the work will still remain?",
+      "questionRaw": "X is able to complete a task in 12 days, while Y takes 18 days to finish the same task. If they collaborate and \nwork together for 3 days, what fraction of the work will still remain?",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "1/3"
+        },
+        {
+          "id": "B",
+          "text": "5/12"
+        },
+        {
+          "id": "C",
+          "text": "7/12"
+        },
+        {
+          "id": "D",
+          "text": "9/12"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "C"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "aptitude",
+      "category": "time_and_work",
+      "subcategory": "combined_work",
+      "topic": "fraction_remaining",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "aptitude",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 13,
+        "questionNumber": 69,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q070",
+      "questionNumber": 70,
+      "page": 13,
+      "question": "Three pumps, A, B, and C are capable of filling a reservoir. A fills in 5 hours, B in 7 hours, and C in 10 hours. \nWhen all three pumps are opened together, they operate for 1.5 hours before pump C is closed. How much \nadditional time will it take to completely fill the reservoir after that?",
+      "questionRaw": "Three pumps, A, B, and C are capable of filling a reservoir. A fills in 5 hours, B in 7 hours, and C in 10 hours. \nWhen all three pumps are opened together, they operate for 1.5 hours before pump C is closed. How much \nadditional time will it take to completely fill the reservoir after that?",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "1/2 hours"
+        },
+        {
+          "id": "B",
+          "text": "43/25 hours"
+        },
+        {
+          "id": "C",
+          "text": "47/48 hours"
+        },
+        {
+          "id": "D",
+          "text": "45/41 hours"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "C"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "aptitude",
+      "category": "time_and_work",
+      "subcategory": "pipes",
+      "topic": "partial_work",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "aptitude",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 13,
+        "questionNumber": 70,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q071",
+      "questionNumber": 71,
+      "page": 13,
+      "question": "A retailer marks a laptop 70% above its cost price. He offers a first discount of 20% on the marked  price. \nDuring a sale, an additional discount of 15% is applied on the already discounted price. If the final selling price is \n₹39,312, what is the approximate cost price of the laptop?",
+      "questionRaw": "A retailer marks a laptop 70% above its cost price. He offers a first discount of 20% on the marked  price. \nDuring a sale, an additional discount of 15% is applied on the already discounted price. If the final selling price is \n₹39,312, what is the approximate cost price of the laptop?",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "₹28,000"
+        },
+        {
+          "id": "B",
+          "text": "₹34,000"
+        },
+        {
+          "id": "C",
+          "text": "₹32,000"
+        },
+        {
+          "id": "D",
+          "text": "₹35,000"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "B"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "aptitude",
+      "category": "profit_and_loss",
+      "subcategory": "successive_discount",
+      "topic": "cost_price",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "aptitude",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 13,
+        "questionNumber": 71,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q072",
+      "questionNumber": 72,
+      "page": 13,
+      "question": "An annular region has outer radius 12 cm and inner radius 8 cm. What is the approximate ratio of the \nannular area to the whole outer circle?",
+      "questionRaw": "An annular region has outer radius 12 cm and inner radius 8 cm. What is the approximate ratio of the \nannular area to the whole outer circle?",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "1:2"
+        },
+        {
+          "id": "B",
+          "text": "5:9"
+        },
+        {
+          "id": "C",
+          "text": "2:3"
+        },
+        {
+          "id": "D",
+          "text": "3:4"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "B"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "aptitude",
+      "category": "mensuration",
+      "subcategory": "annulus",
+      "topic": "area_ratio",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "aptitude",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 13,
+        "questionNumber": 72,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q073",
+      "questionNumber": 73,
+      "page": 13,
+      "question": "A car wheel having a radius of 42 cm. What percentage of its circumference is covered in a half turn? (Use π \n= 22/7)",
+      "questionRaw": "A car wheel having a radius of 42 cm. What percentage of its circumference is covered in a half turn? (Use π \n= 22/7)",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "25%"
+        },
+        {
+          "id": "B",
+          "text": "40%"
+        },
+        {
+          "id": "C",
+          "text": "50%"
+        },
+        {
+          "id": "D",
+          "text": "60%"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "C"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "aptitude",
+      "category": "mensuration",
+      "subcategory": "circumference",
+      "topic": "half_turn",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "aptitude",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 13,
+        "questionNumber": 73,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q074",
+      "questionNumber": 74,
+      "page": 13,
+      "question": "The line y = mx + 7 passes through (2, 13). Find m.",
+      "questionRaw": "The line y = mx + 7 passes through (2, 13). Find m.",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "2"
+        },
+        {
+          "id": "B",
+          "text": "3"
+        },
+        {
+          "id": "C",
+          "text": "6"
+        },
+        {
+          "id": "D",
+          "text": "5"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "B"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "aptitude",
+      "category": "coordinate_geometry",
+      "subcategory": "line_slope",
+      "topic": "slope",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "aptitude",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 13,
+        "questionNumber": 74,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q075",
+      "questionNumber": 75,
+      "page": 14,
+      "question": "Simplify: (3 + 2.8) - 1.5",
+      "questionRaw": "Simplify: (3 + 2.8) - 1.5",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "3.2"
+        },
+        {
+          "id": "B",
+          "text": "4.3"
+        },
+        {
+          "id": "C",
+          "text": "5.4"
+        },
+        {
+          "id": "D",
+          "text": "6.2"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "B"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "aptitude",
+      "category": "simplification",
+      "subcategory": "decimals",
+      "topic": "basic",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "aptitude",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 14,
+        "questionNumber": 75,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q076",
+      "questionNumber": 76,
+      "page": 14,
+      "question": "Find the part of the sentence that contains an error: \nWhat makes the draft legislation especially contentious is not its proposed restructuring of fiscal authority per \nse, (1)/ but that it assumes, without empirical evidence, (2)/ a fiscal parity among states whose developmental \nstarting points are (3)/ incomparable by any accepted standard. (4)",
+      "questionRaw": "Find the part of the sentence that contains an error: \nWhat makes the draft legislation especially contentious is not its proposed restructuring of fiscal authority per \nse, (1)/ but that it assumes, without empirical evidence, (2)/ a fiscal parity among states whose developmental \nstarting points are (3)/ incomparable by any accepted standard. (4)",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "(1)"
+        },
+        {
+          "id": "B",
+          "text": "(2)"
+        },
+        {
+          "id": "C",
+          "text": "(3)"
+        },
+        {
+          "id": "D",
+          "text": "(4)"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "B"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "english",
+      "category": "grammar",
+      "subcategory": "error_spotting",
+      "topic": "subject_verb",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "english",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 14,
+        "questionNumber": 76,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q077",
+      "questionNumber": 77,
+      "page": 14,
+      "question": "Change the following from active to passive: \nThey have been ignoring preservation of the records for years.",
+      "questionRaw": "Change the following from active to passive: \nThey have been ignoring preservation of the records for years.",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "Preservation of the records had been ignored by them for years."
+        },
+        {
+          "id": "B",
+          "text": "Preservation of the records is being ignored by them for years."
+        },
+        {
+          "id": "C",
+          "text": "Preservation of the records was being ignored by them for years."
+        },
+        {
+          "id": "D",
+          "text": "Preservation of the records has been being ignored by them for years."
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "D"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "english",
+      "category": "grammar",
+      "subcategory": "active_passive",
+      "topic": "present_perfect_continuous",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "english",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 14,
+        "questionNumber": 77,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q078",
+      "questionNumber": 78,
+      "page": 14,
+      "question": "Convert the sentence provided below from its passive voice structure to an active voice structure: \nIt was being reported by several sources that the mission had been compromised internally.",
+      "questionRaw": "Convert the sentence provided below from its passive voice structure to an active voice structure: \nIt was being reported by several sources that the mission had been compromised internally.",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "Several sources were reporting that the mission had been compromised internally."
+        },
+        {
+          "id": "B",
+          "text": "The mission was compromised, several sources reported."
+        },
+        {
+          "id": "C",
+          "text": "The sources were reporting an internal mission compromise."
+        },
+        {
+          "id": "D",
+          "text": "The mission had compromised several internal sources."
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "A"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "english",
+      "category": "grammar",
+      "subcategory": "passive_active",
+      "topic": "past_continuous",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "english",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 14,
+        "questionNumber": 78,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q079",
+      "questionNumber": 79,
+      "page": 14,
+      "question": "Select the correct option: \nThe company expanded so quickly that its systems could _______ keep up.",
+      "questionRaw": "Select the correct option: \nThe company expanded so quickly that its systems could _______ keep up.",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "barely"
+        },
+        {
+          "id": "B",
+          "text": "merely"
+        },
+        {
+          "id": "C",
+          "text": "scarcely"
+        },
+        {
+          "id": "D",
+          "text": "all but"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "A"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "english",
+      "category": "vocabulary",
+      "subcategory": "fill_in_the_blank",
+      "topic": "adverb",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "english",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 14,
+        "questionNumber": 79,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q080",
+      "questionNumber": 80,
+      "page": 14,
+      "question": "Rearrange the following sentences in correct order to make a logical passage: \n1. A communication strategy was developed using outreach insights. \n2. Demographic data was monitored through campaign dashboards. \n3. User engagement was gathered from multiple platforms. \n4. Analysts classified users according to age and behaviour.",
+      "questionRaw": "Rearrange the following sentences in correct order to make a logical passage: \n1. A communication strategy was developed using outreach insights. \n2. Demographic data was monitored through campaign dashboards. \n3. User engagement was gathered from multiple platforms. \n4. Analysts classified users according to age and behaviour.",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "3-2-4-1"
+        },
+        {
+          "id": "B",
+          "text": "2-3-1-4"
+        },
+        {
+          "id": "C",
+          "text": "3-1-4-2"
+        },
+        {
+          "id": "D",
+          "text": "4-1-2-3"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "A"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "english",
+      "category": "ordering",
+      "subcategory": "para_jumbles",
+      "topic": "logical_order",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "english",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 14,
+        "questionNumber": 80,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q081",
+      "questionNumber": 81,
+      "page": 15,
+      "question": "Rearrange the following sentences to form a coherent paragraph: \n1. It is a process that involves systematic and objective examination of a subject to uncover new facts or verify \nexisting ones. \n2. Research serves as a fundamental pillar of academic and scientific advancement. \n3. This may be either theoretical, intended to broaden knowledge, or applied, designed to address a practical \nproblem. \n4. The results of this investigation are then recorded and peer-reviewed to ensure validity and credibility .",
+      "questionRaw": "Rearrange the following sentences to form a coherent paragraph: \n1. It is a process that involves systematic and objective examination of a subject to uncover new facts or verify \nexisting ones. \n2. Research serves as a fundamental pillar of academic and scientific advancement. \n3. This may be either theoretical, intended to broaden knowledge, or applied, designed to address a practical \nproblem. \n4. The results of this investigation are then recorded and peer-reviewed to ensure validity and credibility .",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "2, 1, 3, 4"
+        },
+        {
+          "id": "B",
+          "text": "1, 2, 4, 3"
+        },
+        {
+          "id": "C",
+          "text": "4, 3, 2, 1"
+        },
+        {
+          "id": "D",
+          "text": "3, 4, 1, 2"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "A"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "english",
+      "category": "ordering",
+      "subcategory": "para_jumbles",
+      "topic": "coherent_paragraph",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "english",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 15,
+        "questionNumber": 81,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q082",
+      "questionNumber": 82,
+      "page": 15,
+      "question": "A sentence is provided in indirect speech. From the four given options, choose the one that most accurately \nconveys the sentence in its corresponding direct speech. \nHe said that he would attend the meeting after the meal.",
+      "questionRaw": "A sentence is provided in indirect speech. From the four given options, choose the one that most accurately \nconveys the sentence in its corresponding direct speech. \nHe said that he would attend the meeting after the meal.",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "“I will attend the meeting after the meal,” he said."
+        },
+        {
+          "id": "B",
+          "text": "“I would attend the meeting after the meal,” he said."
+        },
+        {
+          "id": "C",
+          "text": "“I shall attend the meeting after the meal,” he said."
+        },
+        {
+          "id": "D",
+          "text": "“I can attend the meeting after the meal,” he said."
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "A"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "english",
+      "category": "grammar",
+      "subcategory": "direct_indirect",
+      "topic": "speech",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "english",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 15,
+        "questionNumber": 82,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q083",
+      "questionNumber": 83,
+      "page": 15,
+      "question": "Find the part of the sentence that contains an error: \nThat the report overlooked several underlying causes (1)/ behind the public unrest were surprising (2)/ given \nthe volume of evidence (3)/ collected over the past few months. (4)",
+      "questionRaw": "Find the part of the sentence that contains an error: \nThat the report overlooked several underlying causes (1)/ behind the public unrest were surprising (2)/ given \nthe volume of evidence (3)/ collected over the past few months. (4)",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "(1)"
+        },
+        {
+          "id": "B",
+          "text": "(2)"
+        },
+        {
+          "id": "C",
+          "text": "(3)"
+        },
+        {
+          "id": "D",
+          "text": "(4)"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "B"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "english",
+      "category": "grammar",
+      "subcategory": "error_spotting",
+      "topic": "agreement",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "english",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 15,
+        "questionNumber": 83,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q084",
+      "questionNumber": 84,
+      "page": 15,
+      "question": "Choose the correct one-word substitute for: ' A person who speaks two languages fluently’ .",
+      "questionRaw": "Choose the correct one-word substitute for: ' A person who speaks two languages fluently’ .",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "Accusation"
+        },
+        {
+          "id": "B",
+          "text": "Denunciation"
+        },
+        {
+          "id": "C",
+          "text": "Bilingual"
+        },
+        {
+          "id": "D",
+          "text": "Indictment"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "C"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "english",
+      "category": "vocabulary",
+      "subcategory": "one_word_substitution",
+      "topic": "bilingual",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "english",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 15,
+        "questionNumber": 84,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q085",
+      "questionNumber": 85,
+      "page": 15,
+      "question": "Choose the most suitable option to replace the highlighted part of the sentence: \nThe doctor advised him to stop consuming junk food and doing workouts regularly.",
+      "questionRaw": "Choose the most suitable option to replace the highlighted part of the sentence: \nThe doctor advised him to stop consuming junk food and doing workouts regularly.",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "stopping junk food and doing regular workouts"
+        },
+        {
+          "id": "B",
+          "text": "to stop junk food and to workouts regularly"
+        },
+        {
+          "id": "C",
+          "text": "to stop consuming junk food and to work out regularly"
+        },
+        {
+          "id": "D",
+          "text": "to not consume junk food and do workouts"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "C"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "english",
+      "category": "grammar",
+      "subcategory": "sentence_improvement",
+      "topic": "parallelism",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "english",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 15,
+        "questionNumber": 85,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q086",
+      "questionNumber": 86,
+      "page": 16,
+      "question": "Select the correct option: \nEven though the phenomenon is uncommon, it may still occur _________ prolonged drought conditions.",
+      "questionRaw": "Select the correct option: \nEven though the phenomenon is uncommon, it may still occur _________ prolonged drought conditions.",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "towards"
+        },
+        {
+          "id": "B",
+          "text": "amidst"
+        },
+        {
+          "id": "C",
+          "text": "between"
+        },
+        {
+          "id": "D",
+          "text": "under"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "D"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "english",
+      "category": "grammar",
+      "subcategory": "preposition",
+      "topic": "usage",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "english",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 16,
+        "questionNumber": 86,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q087",
+      "questionNumber": 87,
+      "page": 16,
+      "question": "Spot the correct spelling of a CSF-shunt procedure.",
+      "questionRaw": "Spot the correct spelling of a CSF-shunt procedure.",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ventriculoatrial"
+        },
+        {
+          "id": "B",
+          "text": "Ventriculoartial"
+        },
+        {
+          "id": "C",
+          "text": "Ventriculoatriall"
+        },
+        {
+          "id": "D",
+          "text": "Ventriculoateriel"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "A"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "english",
+      "category": "vocabulary",
+      "subcategory": "spelling",
+      "topic": "medical",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "english",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 16,
+        "questionNumber": 87,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q088",
+      "questionNumber": 88,
+      "page": 16,
+      "question": "Choose the correct meaning of idiom: \nAt sixes and sevens",
+      "questionRaw": "Choose the correct meaning of idiom: \nAt sixes and sevens",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "A dilemma between two evils"
+        },
+        {
+          "id": "B",
+          "text": "A free and fair decision"
+        },
+        {
+          "id": "C",
+          "text": "In complete confusion"
+        },
+        {
+          "id": "D",
+          "text": "A selection made under duress"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "C"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "english",
+      "category": "idioms",
+      "subcategory": "idiom_meaning",
+      "topic": "at_sixes_and_sevens",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "english",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 16,
+        "questionNumber": 88,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q089",
+      "questionNumber": 89,
+      "page": 16,
+      "question": "Identify the misspelt word",
+      "questionRaw": "Identify the misspelt word",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "Vicereine"
+        },
+        {
+          "id": "B",
+          "text": "floccinaucinihilipilification"
+        },
+        {
+          "id": "C",
+          "text": "Defenestrate"
+        },
+        {
+          "id": "D",
+          "text": "Sacrilegous"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "D"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "english",
+      "category": "vocabulary",
+      "subcategory": "misspelling",
+      "topic": "sacrilegous",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "english",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 16,
+        "questionNumber": 89,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q090",
+      "questionNumber": 90,
+      "page": 16,
+      "question": "Select the most appropriate synonym of the given word: \nDUPLICITOUS",
+      "questionRaw": "Select the most appropriate synonym of the given word: \nDUPLICITOUS",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "Honest"
+        },
+        {
+          "id": "B",
+          "text": "Faithful"
+        },
+        {
+          "id": "C",
+          "text": "Deceitful"
+        },
+        {
+          "id": "D",
+          "text": "loyal"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "C"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "english",
+      "category": "vocabulary",
+      "subcategory": "synonym",
+      "topic": "duplicitous",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "english",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 16,
+        "questionNumber": 90,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q091",
+      "questionNumber": 91,
+      "page": 16,
+      "question": "As per the passage, wisdom is mainly developed through: \nRead the following passage and answer the questions based on the passage: \nEducation and wisdom are frequently treated as interchangeable in everyday discourse, yet a perceptive observer \nrecognises a clear and essential distinction between them. Education refers to the structured acquisition of \nknowledge, typically validated through degrees, academic achievements, and mastery of formal disciplines. It is \nimparted via organized curricula, institutional evaluation systems, and theoretical models that emphasize \nintellectual competence. \nWisdom, however, extends beyond formal learning. It represents the thoughtful and ethical application of \nknowledge in real -world situations, shaped by experience, self -reflection, emotional intelligence, and moral \nawareness. A person may be highly educated  and still lack wisdom if they are unable to translate learning into \nsound judgement or responsible action. In contrast, many individuals —such as farmers, craftsmen, or elders —\n \n \nmay possess limited formal education, yet demonstrate remarkable wisdom through prudent choices informed \nby lived experience and practical insight. \nWhile education sharpens the intellect, wisdom deepens understanding. In the modern age of information \noverload and algorithm -driven thinking, the gap between education and wisdom has become increasingly \npronounced. Educational systems often prioritise rot e learning, examination performance, and standardized \noutcomes, sometimes at the expense of critical thinking, ethical reasoning, and emotional maturity. As a result, \nsociety produces individuals adept at solving technical problems but less capable of maki ng balanced decisions \nthat require empathy, patience, and foresight. \nUnlike education, wisdom cannot be downloaded, accelerated, or certified. It develops gradually through trial and \nerror, failure, reflection, and a nuanced comprehension of human behaviour. Moreover, education is often \ntemporally limited, concluding with academic milestones or formal qualifications, whereas wisdom is a lifelong \npursuit. It reveals itself not through certificates, but through humility, consistency in ethical conduct, and the \ncapacity to navigate uncertainty with clarity and grace. \nUltimately, the highest form of intelligence lies not merely in knowing what is right, but in consistently choosing \nto act upon it—even when doing so is difficult or inconvenient.",
+      "questionRaw": "As per the passage, wisdom is mainly developed through: \nRead the following passage and answer the questions based on the passage: \nEducation and wisdom are frequently treated as interchangeable in everyday discourse, yet a perceptive observer \nrecognises a clear and essential distinction between them. Education refers to the structured acquisition of \nknowledge, typically validated through degrees, academic achievements, and mastery of formal disciplines. It is \nimparted via organized curricula, institutional evaluation systems, and theoretical models that emphasize \nintellectual competence. \nWisdom, however, extends beyond formal learning. It represents the thoughtful and ethical application of \nknowledge in real -world situations, shaped by experience, self -reflection, emotional intelligence, and moral \nawareness. A person may be highly educated  and still lack wisdom if they are unable to translate learning into \nsound judgement or responsible action. In contrast, many individuals —such as farmers, craftsmen, or elders —\n \n \nmay possess limited formal education, yet demonstrate remarkable wisdom through prudent choices informed \nby lived experience and practical insight. \nWhile education sharpens the intellect, wisdom deepens understanding. In the modern age of information \noverload and algorithm -driven thinking, the gap between education and wisdom has become increasingly \npronounced. Educational systems often prioritise rot e learning, examination performance, and standardized \noutcomes, sometimes at the expense of critical thinking, ethical reasoning, and emotional maturity. As a result, \nsociety produces individuals adept at solving technical problems but less capable of maki ng balanced decisions \nthat require empathy, patience, and foresight. \nUnlike education, wisdom cannot be downloaded, accelerated, or certified. It develops gradually through trial and \nerror, failure, reflection, and a nuanced comprehension of human behaviour. Moreover, education is often \ntemporally limited, concluding with academic milestones or formal qualifications, whereas wisdom is a lifelong \npursuit. It reveals itself not through certificates, but through humility, consistency in ethical conduct, and the \ncapacity to navigate uncertainty with clarity and grace. \nUltimately, the highest form of intelligence lies not merely in knowing what is right, but in consistently choosing \nto act upon it—even when doing so is difficult or inconvenient.",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "textbooks"
+        },
+        {
+          "id": "B",
+          "text": "emotional detachment"
+        },
+        {
+          "id": "C",
+          "text": "experience and reflection"
+        },
+        {
+          "id": "D",
+          "text": "algorithmic thinking"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "C"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "english",
+      "category": "reading_comprehension",
+      "subcategory": "main_idea",
+      "topic": "wisdom",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "english",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 16,
+        "questionNumber": 91,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q092",
+      "questionNumber": 92,
+      "page": 17,
+      "question": "What is implied by the statement “wisdom enriches the soul”? \nRead the following passage and answer the questions based on the passage: \nEducation and wisdom are frequently treated as interchangeable in everyday discourse, yet a perceptive observer \nrecognises a clear and essential distinction between them. Education refers to the structured acquisition of \nknowledge, typically validated through degrees, academic achievements, and mastery of formal disciplines. It is \nimparted via organized curricula, institutional evaluation systems, and theoretical models that emphasize \nintellectual competence. \nWisdom, however, extends beyond formal learning. It represents the thoughtful and ethical application of \nknowledge in real -world situations, shaped by experience, self -reflection, emotional intelligence, and moral \nawareness. A person may be highly educated  and still lack wisdom if they are unable to translate learning into \nsound judgement or responsible action. In contrast, many individuals —such as farmers, craftsmen, or elders —\nmay possess limited formal education, yet demonstrate remarkable wisdom through prudent choices informed \nby lived experience and practical insight. \nWhile education sharpens the intellect, wisdom deepens understanding. In the modern age of information \noverload and algorithm -driven thinking, the gap between education and wisdom has become increasingly \npronounced. Educational systems often prioritise rot e learning, examination performance, and standardized \noutcomes, sometimes at the expense of critical thinking, ethical reasoning, and emotional maturity. As a result, \nsociety produces individuals adept at solving technical problems but less capable of maki ng balanced decisions \nthat require empathy, patience, and foresight. \nUnlike education, wisdom cannot be downloaded, accelerated, or certified. It develops gradually through trial and \nerror, failure, reflection, and a nuanced comprehension of human behaviour. Moreover, education is often \ntemporally limited, concluding with academic milestones or formal qualifications, whereas wisdom is a lifelong \npursuit. It reveals itself not through certificates, but through humility, consistency in ethical conduct, and the \ncapacity to navigate uncertainty with clarity and grace. \nUltimately, the highest form of intelligence lies not merely in knowing what is right, but in consistently choosing \nto act upon it—even when doing so is difficult or inconvenient.",
+      "questionRaw": "What is implied by the statement “wisdom enriches the soul”? \nRead the following passage and answer the questions based on the passage: \nEducation and wisdom are frequently treated as interchangeable in everyday discourse, yet a perceptive observer \nrecognises a clear and essential distinction between them. Education refers to the structured acquisition of \nknowledge, typically validated through degrees, academic achievements, and mastery of formal disciplines. It is \nimparted via organized curricula, institutional evaluation systems, and theoretical models that emphasize \nintellectual competence. \nWisdom, however, extends beyond formal learning. It represents the thoughtful and ethical application of \nknowledge in real -world situations, shaped by experience, self -reflection, emotional intelligence, and moral \nawareness. A person may be highly educated  and still lack wisdom if they are unable to translate learning into \nsound judgement or responsible action. In contrast, many individuals —such as farmers, craftsmen, or elders —\nmay possess limited formal education, yet demonstrate remarkable wisdom through prudent choices informed \nby lived experience and practical insight. \nWhile education sharpens the intellect, wisdom deepens understanding. In the modern age of information \noverload and algorithm -driven thinking, the gap between education and wisdom has become increasingly \npronounced. Educational systems often prioritise rot e learning, examination performance, and standardized \noutcomes, sometimes at the expense of critical thinking, ethical reasoning, and emotional maturity. As a result, \nsociety produces individuals adept at solving technical problems but less capable of maki ng balanced decisions \nthat require empathy, patience, and foresight. \nUnlike education, wisdom cannot be downloaded, accelerated, or certified. It develops gradually through trial and \nerror, failure, reflection, and a nuanced comprehension of human behaviour. Moreover, education is often \ntemporally limited, concluding with academic milestones or formal qualifications, whereas wisdom is a lifelong \npursuit. It reveals itself not through certificates, but through humility, consistency in ethical conduct, and the \ncapacity to navigate uncertainty with clarity and grace. \nUltimately, the highest form of intelligence lies not merely in knowing what is right, but in consistently choosing \nto act upon it—even when doing so is difficult or inconvenient.",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "It leads to academic achievement"
+        },
+        {
+          "id": "B",
+          "text": "It nurtures profound moral understanding"
+        },
+        {
+          "id": "C",
+          "text": "It enhances language skills"
+        },
+        {
+          "id": "D",
+          "text": "It strengthens numerical ability"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "B"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "english",
+      "category": "reading_comprehension",
+      "subcategory": "inference",
+      "topic": "moral_understanding",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "english",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 17,
+        "questionNumber": 92,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q093",
+      "questionNumber": 93,
+      "page": 18,
+      "question": "According to the author, which individuals may possess wisdom even without formal education? \nRead the following passage and answer the questions based on the passage: \nEducation and wisdom are frequently treated as interchangeable in everyday discourse, yet a perceptive observer \nrecognises a clear and essential distinction between them. Education refers to the structured acquisition of \nknowledge, typically validated through degrees, academic achievements, and mastery of formal disciplines. It is \nimparted via organized curricula, institutional evaluation systems, and theoretical models that emphasize \nintellectual competence. \nWisdom, however, extends beyond formal learning. It represents the thoughtful and ethical application of \nknowledge in real -world situations, shaped by experience, self -reflection, emotional intelligence, and moral \nawareness. A person may be highly educated  and still lack wisdom if they are unable to translate learning into \nsound judgement or responsible action. In contrast, many individuals —such as farmers, craftsmen, or elders —\nmay possess limited formal education, yet demonstrate remarkable wisdom through prudent choices informed \nby lived experience and practical insight. \nWhile education sharpens the intellect, wisdom deepens understanding. In the modern age of information \noverload and algorithm -driven thinking, the gap between education and wisdom has become increasingly \npronounced. Educational systems often prioritise rot e learning, examination performance, and standardized \noutcomes, sometimes at the expense of critical thinking, ethical reasoning, and emotional maturity. As a result, \nsociety produces individuals adept at solving technical problems but less capable of maki ng balanced decisions \nthat require empathy, patience, and foresight. \nUnlike education, wisdom cannot be downloaded, accelerated, or certified. It develops gradually through trial and \nerror, failure, reflection, and a nuanced comprehension of human behaviour. Moreover, education is often \ntemporally limited, concluding with academic milestones or formal qualifications, whereas wisdom is a lifelong \npursuit. It reveals itself not through certificates, but through humility, consistency in ethical conduct, and the \ncapacity to navigate uncertainty with clarity and grace. \nUltimately, the highest form of intelligence lies not merely in knowing what is right, but in consistently choosing \nto act upon it—even when doing so is difficult or inconvenient.",
+      "questionRaw": "According to the author, which individuals may possess wisdom even without formal education? \nRead the following passage and answer the questions based on the passage: \nEducation and wisdom are frequently treated as interchangeable in everyday discourse, yet a perceptive observer \nrecognises a clear and essential distinction between them. Education refers to the structured acquisition of \nknowledge, typically validated through degrees, academic achievements, and mastery of formal disciplines. It is \nimparted via organized curricula, institutional evaluation systems, and theoretical models that emphasize \nintellectual competence. \nWisdom, however, extends beyond formal learning. It represents the thoughtful and ethical application of \nknowledge in real -world situations, shaped by experience, self -reflection, emotional intelligence, and moral \nawareness. A person may be highly educated  and still lack wisdom if they are unable to translate learning into \nsound judgement or responsible action. In contrast, many individuals —such as farmers, craftsmen, or elders —\nmay possess limited formal education, yet demonstrate remarkable wisdom through prudent choices informed \nby lived experience and practical insight. \nWhile education sharpens the intellect, wisdom deepens understanding. In the modern age of information \noverload and algorithm -driven thinking, the gap between education and wisdom has become increasingly \npronounced. Educational systems often prioritise rot e learning, examination performance, and standardized \noutcomes, sometimes at the expense of critical thinking, ethical reasoning, and emotional maturity. As a result, \nsociety produces individuals adept at solving technical problems but less capable of maki ng balanced decisions \nthat require empathy, patience, and foresight. \nUnlike education, wisdom cannot be downloaded, accelerated, or certified. It develops gradually through trial and \nerror, failure, reflection, and a nuanced comprehension of human behaviour. Moreover, education is often \ntemporally limited, concluding with academic milestones or formal qualifications, whereas wisdom is a lifelong \npursuit. It reveals itself not through certificates, but through humility, consistency in ethical conduct, and the \ncapacity to navigate uncertainty with clarity and grace. \nUltimately, the highest form of intelligence lies not merely in knowing what is right, but in consistently choosing \nto act upon it—even when doing so is difficult or inconvenient.",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "Corporate executives"
+        },
+        {
+          "id": "B",
+          "text": "Academicians"
+        },
+        {
+          "id": "C",
+          "text": "Farmers and craftsmen"
+        },
+        {
+          "id": "D",
+          "text": "Policy analysts"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "C"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "english",
+      "category": "reading_comprehension",
+      "subcategory": "detail",
+      "topic": "farmers",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "english",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 18,
+        "questionNumber": 93,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q094",
+      "questionNumber": 94,
+      "page": 18,
+      "question": "What key distinction does the passage primarily highlight? \nRead the following passage and answer the questions based on the passage: \nEducation and wisdom are frequently treated as interchangeable in everyday discourse, yet a perceptive observer \nrecognises a clear and essential distinction between them. Education refers to the structured acquisition of \nknowledge, typically validated through degrees, academic achievements, and mastery of formal disciplines. It is \nimparted via organized curricula, institutional evaluation systems, and theoretical models that emphasize \nintellectual competence. \nWisdom, however, extends beyond formal learning. It represents the thoughtful and ethical application of \nknowledge in real -world situations, shaped by experience, self -reflection, emotional intelligence, and moral \nawareness. A person may be highly educated  and still lack wisdom if they are unable to translate learning into \nsound judgement or responsible action. In contrast, many individuals —such as farmers, craftsmen, or elders —\nmay possess limited formal education, yet demonstrate remarkable wisdom through prudent choices informed \nby lived experience and practical insight. \nWhile education sharpens the intellect, wisdom deepens understanding. In the modern age of information \noverload and algorithm -driven thinking, the gap between education and wisdom has become increasingly \n \n \npronounced. Educational systems often prioritise rote learning, examination performance, and standardized \noutcomes, sometimes at the expense of critical thinking, ethical reasoning, and emotional maturity. As a result, \nsociety produces individuals adept at solving technical problems but less capable of making balanced decisions \nthat require empathy, patience, and foresight. \nUnlike education, wisdom cannot be downloaded, accelerated, or certified. It develops gradually through trial and \nerror, failure, reflection, and a nuanced comprehension of human behaviour. Moreover, education is often \ntemporally limited, concluding with academic milestones or formal qualifications, whereas wisdom is a lifelong \npursuit. It reveals itself not through certificates, but through humility, consistency in ethical conduct, and the \ncapacity to navigate uncertainty with clarity and grace. \nUltimately, the highest form of intelligence lies not merely in knowing what is right, but in consistently choosing \nto act upon it—even when doing so is difficult or inconvenient.",
+      "questionRaw": "What key distinction does the passage primarily highlight? \nRead the following passage and answer the questions based on the passage: \nEducation and wisdom are frequently treated as interchangeable in everyday discourse, yet a perceptive observer \nrecognises a clear and essential distinction between them. Education refers to the structured acquisition of \nknowledge, typically validated through degrees, academic achievements, and mastery of formal disciplines. It is \nimparted via organized curricula, institutional evaluation systems, and theoretical models that emphasize \nintellectual competence. \nWisdom, however, extends beyond formal learning. It represents the thoughtful and ethical application of \nknowledge in real -world situations, shaped by experience, self -reflection, emotional intelligence, and moral \nawareness. A person may be highly educated  and still lack wisdom if they are unable to translate learning into \nsound judgement or responsible action. In contrast, many individuals —such as farmers, craftsmen, or elders —\nmay possess limited formal education, yet demonstrate remarkable wisdom through prudent choices informed \nby lived experience and practical insight. \nWhile education sharpens the intellect, wisdom deepens understanding. In the modern age of information \noverload and algorithm -driven thinking, the gap between education and wisdom has become increasingly \n \n \npronounced. Educational systems often prioritise rote learning, examination performance, and standardized \noutcomes, sometimes at the expense of critical thinking, ethical reasoning, and emotional maturity. As a result, \nsociety produces individuals adept at solving technical problems but less capable of making balanced decisions \nthat require empathy, patience, and foresight. \nUnlike education, wisdom cannot be downloaded, accelerated, or certified. It develops gradually through trial and \nerror, failure, reflection, and a nuanced comprehension of human behaviour. Moreover, education is often \ntemporally limited, concluding with academic milestones or formal qualifications, whereas wisdom is a lifelong \npursuit. It reveals itself not through certificates, but through humility, consistency in ethical conduct, and the \ncapacity to navigate uncertainty with clarity and grace. \nUltimately, the highest form of intelligence lies not merely in knowing what is right, but in consistently choosing \nto act upon it—even when doing so is difficult or inconvenient.",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "Education and career growth"
+        },
+        {
+          "id": "B",
+          "text": "Intelligence and memory"
+        },
+        {
+          "id": "C",
+          "text": "Reading and writing skills"
+        },
+        {
+          "id": "D",
+          "text": "Formal learning and applied wisdom"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "D"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "english",
+      "category": "reading_comprehension",
+      "subcategory": "theme",
+      "topic": "education_vs_wisdom",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "english",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 18,
+        "questionNumber": 94,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q095",
+      "questionNumber": 95,
+      "page": 19,
+      "question": ". As per the author, what has contributed to the growing divide between education and wisdom in modern \ntimes? \nRead the following passage and answer the questions based on the passage: \nEducation and wisdom are frequently treated as interchangeable in everyday discourse, yet a perceptive observer \nrecognises a clear and essential distinction between them. Education refers to the structured acquisition of \nknowledge, typically validated through degrees, academic achievements, and mastery of formal disciplines. It is \nimparted via organized curricula, institutional evaluation systems, and theoretical models that emphasize \nintellectual competence. \nWisdom, however, extends beyond formal learning. It represents the thoughtful and ethical application of \nknowledge in real -world situations, shaped by experience, self -reflection, emotional intelligence, and moral \nawareness. A person may be highly educated  and still lack wisdom if they are unable to translate learning into \nsound judgement or responsible action. In contrast, many individuals —such as farmers, craftsmen, or elders —\nmay possess limited formal education, yet demonstrate remarkable wisdom through prudent choices informed \nby lived experience and practical insight. \nWhile education sharpens the intellect, wisdom deepens understanding. In the modern age of information \noverload and algorithm -driven thinking, the gap between education and wisdom has become increasingly \npronounced. Educational systems often prioritise rot e learning, examination performance, and standardized \noutcomes, sometimes at the expense of critical thinking, ethical reasoning, and emotional maturity. As a result, \nsociety produces individuals adept at solving technical problems but less capable of maki ng balanced decisions \nthat require empathy, patience, and foresight. \nUnlike education, wisdom cannot be downloaded, accelerated, or certified. It develops gradually through trial and \nerror, failure, reflection, and a nuanced comprehension of human behaviour. Moreover, education is often \ntemporally limited, concluding with academic milestones or formal qualifications, whereas wisdom is a lifelong \npursuit. It reveals itself not through certificates, but through humility, consistency in ethical conduct, and the \ncapacity to navigate uncertainty with clarity and grace. \nUltimately, the highest form of intelligence lies not merely in knowing what is right, but in consistently choosing \nto act upon it—even when doing so is difficult or inconvenient.",
+      "questionRaw": ". As per the author, what has contributed to the growing divide between education and wisdom in modern \ntimes? \nRead the following passage and answer the questions based on the passage: \nEducation and wisdom are frequently treated as interchangeable in everyday discourse, yet a perceptive observer \nrecognises a clear and essential distinction between them. Education refers to the structured acquisition of \nknowledge, typically validated through degrees, academic achievements, and mastery of formal disciplines. It is \nimparted via organized curricula, institutional evaluation systems, and theoretical models that emphasize \nintellectual competence. \nWisdom, however, extends beyond formal learning. It represents the thoughtful and ethical application of \nknowledge in real -world situations, shaped by experience, self -reflection, emotional intelligence, and moral \nawareness. A person may be highly educated  and still lack wisdom if they are unable to translate learning into \nsound judgement or responsible action. In contrast, many individuals —such as farmers, craftsmen, or elders —\nmay possess limited formal education, yet demonstrate remarkable wisdom through prudent choices informed \nby lived experience and practical insight. \nWhile education sharpens the intellect, wisdom deepens understanding. In the modern age of information \noverload and algorithm -driven thinking, the gap between education and wisdom has become increasingly \npronounced. Educational systems often prioritise rot e learning, examination performance, and standardized \noutcomes, sometimes at the expense of critical thinking, ethical reasoning, and emotional maturity. As a result, \nsociety produces individuals adept at solving technical problems but less capable of maki ng balanced decisions \nthat require empathy, patience, and foresight. \nUnlike education, wisdom cannot be downloaded, accelerated, or certified. It develops gradually through trial and \nerror, failure, reflection, and a nuanced comprehension of human behaviour. Moreover, education is often \ntemporally limited, concluding with academic milestones or formal qualifications, whereas wisdom is a lifelong \npursuit. It reveals itself not through certificates, but through humility, consistency in ethical conduct, and the \ncapacity to navigate uncertainty with clarity and grace. \nUltimately, the highest form of intelligence lies not merely in knowing what is right, but in consistently choosing \nto act upon it—even when doing so is difficult or inconvenient.",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "Excessive reliance on social media"
+        },
+        {
+          "id": "B",
+          "text": "Decline in the value placed on wisdom"
+        },
+        {
+          "id": "C",
+          "text": "Emphasis on rote learning and algorithmic approaches"
+        },
+        {
+          "id": "D",
+          "text": "Cessation of learning after formal education"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "C"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "english",
+      "category": "reading_comprehension",
+      "subcategory": "cause",
+      "topic": "rote_learning",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "english",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 19,
+        "questionNumber": 95,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q096",
+      "questionNumber": 96,
+      "page": 21,
+      "question": "Select the correct option: \nEven though the plan looked workable on paper, executing it turned out to be ________ complicated than expected.",
+      "questionRaw": "Select the correct option: \nEven though the plan looked workable on paper, executing it turned out to be ________ complicated than expected.",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "less"
+        },
+        {
+          "id": "B",
+          "text": "more"
+        },
+        {
+          "id": "C",
+          "text": "much"
+        },
+        {
+          "id": "D",
+          "text": "rather"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "B"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "english",
+      "category": "grammar",
+      "subcategory": "comparative",
+      "topic": "more_than",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "english",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 21,
+        "questionNumber": 96,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q097",
+      "questionNumber": 97,
+      "page": 21,
+      "question": "Select the most appropriate antonym of the given word. \nDUPLICITOUS",
+      "questionRaw": "Select the most appropriate antonym of the given word. \nDUPLICITOUS",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "Betraying"
+        },
+        {
+          "id": "B",
+          "text": "Deceitful"
+        },
+        {
+          "id": "C",
+          "text": "Candid"
+        },
+        {
+          "id": "D",
+          "text": "Treacherous"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "C"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "english",
+      "category": "vocabulary",
+      "subcategory": "antonym",
+      "topic": "",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "english",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 21,
+        "questionNumber": 97,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q098",
+      "questionNumber": 98,
+      "page": 21,
+      "question": "Choose the most suitable option to replace the highlighted part of the sentence: \nShe has the reputation to be an honest leader.",
+      "questionRaw": "Choose the most suitable option to replace the highlighted part of the sentence: \nShe has the reputation to be an honest leader.",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "to have honesty"
+        },
+        {
+          "id": "B",
+          "text": "of being an honest leader"
+        },
+        {
+          "id": "C",
+          "text": "of being the honest leader"
+        },
+        {
+          "id": "D",
+          "text": "to be honesty"
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "B"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "english",
+      "category": "grammar",
+      "subcategory": "fill_in_the_blank",
+      "topic": "connector",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "english",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 21,
+        "questionNumber": 98,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q099",
+      "questionNumber": 99,
+      "page": 21,
+      "question": "A sentence is provided in direct speech. From the four given options, choose the one that most accurately \nconveys the sentence in its corresponding indirect speech. \nHe asked me, “Did you submit your homework?”",
+      "questionRaw": "A sentence is provided in direct speech. From the four given options, choose the one that most accurately \nconveys the sentence in its corresponding indirect speech. \nHe asked me, “Did you submit your homework?”",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "He asked me if I had submitted my homework."
+        },
+        {
+          "id": "B",
+          "text": "He asked me did I submit my homework."
+        },
+        {
+          "id": "C",
+          "text": "He asked me whether I have submitted my homework."
+        },
+        {
+          "id": "D",
+          "text": "He asked me whether had I submitted my homework."
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "A"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "english",
+      "category": "grammar",
+      "subcategory": "error_spotting",
+      "topic": "tense",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "english",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 21,
+        "questionNumber": 99,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ssc-cgl-tier1-2025-09-12-s1-q100",
+      "questionNumber": 100,
+      "page": 21,
+      "question": "Select the sentence containing the homonym of the highlighted word: \nThe choir began the canon at the conductor’s signal.",
+      "questionRaw": "Select the sentence containing the homonym of the highlighted word: \nThe choir began the canon at the conductor’s signal.",
+      "questionType": "mcq",
+      "options": [
+        {
+          "id": "A",
+          "text": "The photographer adjusted the canon before taking the shot."
+        },
+        {
+          "id": "B",
+          "text": "The canon echoed beautifully through the hall."
+        },
+        {
+          "id": "C",
+          "text": "The singers practised the canon repeatedly before the performance."
+        },
+        {
+          "id": "D",
+          "text": "The composer introduced a complex canon in the final movement."
+        }
+      ],
+      "correctAnswer": {
+        "optionIds": [
+          "A"
+        ],
+        "text": "",
+        "status": "verified"
+      },
+      "subject": "english",
+      "category": "vocabulary",
+      "subcategory": "sentence_replacement",
+      "topic": "usage",
+      "tags": [
+        "ssc-cgl",
+        "tier1",
+        "english",
+        "mcq"
+      ],
+      "explanation": "",
+      "formula": "",
+      "difficulty": "",
+      "contentType": "problem",
+      "stage": "practice",
+      "source": {
+        "page": 21,
+        "questionNumber": 100,
+        "pdfUrl": "",
+        "pdfSha256": "",
+        "extractionConfidence": 0.99
+      },
+      "media": {
+        "questionImage": null,
+        "hasDiagram": false,
+        "hasTable": false
+      },
+      "review": {
+        "answerNeedsVerification": false,
+        "classificationNeedsReview": false,
+        "notes": ""
+      }
+    }
+  ]
+}
