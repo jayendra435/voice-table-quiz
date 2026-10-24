@@ -177,7 +177,7 @@
         const index = key ? key.index : randomInt(0, 25);
         const letter = String.fromCharCode(65 + index);
         const pairLetter = String.fromCharCode(90 - index);
-        const questionType = key ? key.questionType : randomInt(1, 3);
+        const questionType = key ? key.questionType : randomInt(1, 4);
         q.type = 'alphabet';
         if(questionType === 1){
           q.prompt = `What is the position of alphabet ${letter}?`;
@@ -185,9 +185,20 @@
         } else if(questionType === 2){
           q.prompt = `Which alphabet is in position ${index + 1}?`;
           q.answer = letter;
-        } else {
-          q.prompt = `What is the alphabet pair of ${letter}?`;
+        } else if(questionType === 3){
+          q.prompt = `What is the mirror pair of ${letter}?`;
           q.answer = pairLetter;
+        } else {
+          let secondIndex;
+          if(key){
+            secondIndex = key.secondIndex;
+          } else {
+            const candidateIndex = randomInt(0, 24);
+            secondIndex = candidateIndex >= index ? candidateIndex + 1 : candidateIndex;
+          }
+          const secondLetter = String.fromCharCode(65 + secondIndex);
+          q.prompt = `What is the difference between the positions of ${letter} and ${secondLetter}?`;
+          q.answer = String(Math.abs(index - secondIndex));
         }
         return q;
       }
@@ -290,6 +301,11 @@
       for(let index = 0; index < 26; index += 1){
         for(let questionType = 1; questionType <= 3; questionType += 1){
           pool.push({index, questionType});
+        }
+      }
+      for(let index = 0; index < 26; index += 1){
+        for(let secondIndex = index + 1; secondIndex < 26; secondIndex += 1){
+          pool.push({index, secondIndex, questionType: 4});
         }
       }
     } else if(mode === 'addition'){

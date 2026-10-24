@@ -54,7 +54,7 @@ A browser-based math self-check trainer. The system asks each question aloud, wa
 - **Complete Random Cycles**: Every valid question in the selected range appears once in randomized order before the pool resets
 - **Automatic Range Reset**: Changing practice mode or range settings starts a fresh question pool
 - **Practice Modes**: Addition, tables, squares, cubes, roots, and fraction conversions
-- **Alphabet Recall**: Randomly asks alphabet-to-position, position-to-alphabet, and opposite-pair questions
+- **Alphabet Recall**: Randomly asks alphabet-to-position, position-to-alphabet, mirror-pair, and letter-position difference questions
 - **Addition Ranges**: Choose the number of digits in each addend, such as 2-digit + 2-digit or 3-digit + 3-digit
 - **Content Library**: JSON-backed display-only questions with subject, category, subcategory, related set, explanation, and source metadata
 - **Responsive**: Works on desktop and mobile
